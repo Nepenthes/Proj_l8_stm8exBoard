@@ -1,0 +1,3332 @@
+Global:
+
+  Symbol   Redirected to
+  ------   -------------
+  _Printf  _PrintfSmall
+  _Scanf   _ScanfSmall
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\main.o.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  ?b10
+              reference :  ?b11
+              reference :  ?b14
+              reference :  ?b2
+              reference :  ?b4
+              reference :  ?b5
+              reference :  ?b6
+              reference :  ?b7
+              reference :  ?b8
+              reference :  ?b9
+              reference :  ?epilogue_l2_w6
+              reference :  ?epilogue_w4
+              reference :  ?mov_w0_w5
+              reference :  ?move1616_v_x_y_a
+              reference :  ?or16_x_x_dw
+              reference :  ?push_l2
+              reference :  ?push_w0
+              reference :  ?push_w4
+              reference :  ?push_w6
+              reference :  ?sll16_x_x_a
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w4
+              reference :  ?w5
+              reference :  ?w6
+              reference :  CLK_HSECmd
+              reference :  CLK_HSICmd
+              reference :  CLK_HSIPrescalerConfig
+              reference :  EXTI_DeInit
+              reference :  EXTI_SetExtIntSensitivity
+              reference :  GPIO_DeInit
+              reference :  GPIO_Init
+              reference :  GPIO_WriteHigh
+              reference :  GPIO_WriteLow
+              reference :  ITC_DeInit
+              reference :  ITC_SetSoftwarePriority
+              reference :  IWDG_Enable
+              reference :  IWDG_ReloadCounter
+              reference :  IWDG_SetPrescaler
+              reference :  IWDG_SetReload
+              reference :  IWDG_WriteAccessCmd
+              reference :  TIM1_ARRPreloadConfig
+              reference :  TIM1_ClearITPendingBit
+              reference :  TIM1_Cmd
+              reference :  TIM1_GenerateEvent
+              reference :  TIM1_ITConfig
+              reference :  TIM1_TimeBaseInit
+              reference :  UART1_ClearITPendingBit
+              reference :  UART1_Cmd
+              reference :  UART1_DeInit
+              reference :  UART1_GetFlagStatus
+              reference :  UART1_ITConfig
+              reference :  UART1_Init
+              reference :  UART1_ReceiveData8
+              reference :  UART1_SendData8
+              reference :  memcpy
+              reference :  memset
+              reference :  strlen
+              definition:  bspInit_timer1
+              definition:  delay
+              definition:  interruptHandleFunc_exitElecSouceMeasure
+              definition:  interruptHandleFunc_timer1
+              definition:  interruptHandleFunc_uartRx
+              definition:  interruptHandleFunc_uartTx
+              definition:  main
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_beep.o.
+              reference :  ?b0
+              reference :  ?mul16_x_x_w0
+              reference :  ?udiv32_l0_l0_dl
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              definition:  BEEP_Cmd
+              definition:  BEEP_DeInit
+              definition:  BEEP_Init
+              definition:  BEEP_LSICalibrationConfig
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_clk.o.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  ?b2
+              reference :  ?b3
+              reference :  ?b4
+              reference :  ?b5
+              reference :  ?b6
+              reference :  ?sll16_x_x_a
+              reference :  ?udiv32_l0_dl_l1
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              reference :  ?w3
+              definition:  CLKPrescTable
+              definition:  CLK_AdjustHSICalibrationValue
+              definition:  CLK_CCOCmd
+              definition:  CLK_CCOConfig
+              definition:  CLK_ClearITPendingBit
+              definition:  CLK_ClockSecuritySystemEnable
+              definition:  CLK_ClockSwitchCmd
+              definition:  CLK_ClockSwitchConfig
+              definition:  CLK_DeInit
+              definition:  CLK_FastHaltWakeUpCmd
+              definition:  CLK_GetClockFreq
+              definition:  CLK_GetFlagStatus
+              definition:  CLK_GetITStatus
+              definition:  CLK_GetSYSCLKSource
+              definition:  CLK_HSECmd
+              definition:  CLK_HSICmd
+              definition:  CLK_HSIPrescalerConfig
+              definition:  CLK_ITConfig
+              definition:  CLK_LSICmd
+              definition:  CLK_PeripheralClockConfig
+              definition:  CLK_SWIMConfig
+              definition:  CLK_SYSCLKConfig
+              definition:  CLK_SYSCLKEmergencyClear
+              definition:  CLK_SlowActiveHaltWakeUpCmd
+              definition:  HSIDivFactor
+              definition:  __iar_cc..d0pm56hFLP0
+              definition:  __iar_cc..zOt7ntDbQCC
+              definition:  __iar_cc..$z82_8Fp0u8
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_exti.o.
+              reference :  ?b0
+              reference :  ?sll8_a_a_6
+              reference :  ?srl8_a_a_6
+              definition:  EXTI_DeInit
+              definition:  EXTI_GetExtIntSensitivity
+              definition:  EXTI_GetTLISensitivity
+              definition:  EXTI_SetExtIntSensitivity
+              definition:  EXTI_SetTLISensitivity
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_gpio.o.
+              reference :  ?b0
+              reference :  ?b1
+              definition:  GPIO_DeInit
+              definition:  GPIO_ExternalPullUpConfig
+              definition:  GPIO_Init
+              definition:  GPIO_ReadInputData
+              definition:  GPIO_ReadInputPin
+              definition:  GPIO_ReadOutputData
+              definition:  GPIO_Write
+              definition:  GPIO_WriteHigh
+              definition:  GPIO_WriteLow
+              definition:  GPIO_WriteReverse
+              definition:  __iar_cc..FwJcZtvOTJ0
+              definition:  __iar_cc..xzkMlW13fx2
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o.
+              reference :  ?pop_l0
+              reference :  ?pop_l1
+              reference :  ?push_l0
+              reference :  ?push_l1
+              reference :  interruptHandleFunc_exitElecSouceMeasure
+              reference :  interruptHandleFunc_timer1
+              reference :  interruptHandleFunc_uartRx
+              reference :  interruptHandleFunc_uartTx
+              definition:  ADC1_IRQHandler
+              definition:  AWU_IRQHandler
+              definition:  CLK_IRQHandler
+              definition:  EEPROM_EEC_IRQHandler
+              definition:  EXTI_PORTA_IRQHandler
+              definition:  EXTI_PORTB_IRQHandler
+              definition:  EXTI_PORTC_IRQHandler
+              definition:  EXTI_PORTD_IRQHandler
+              definition:  EXTI_PORTE_IRQHandler
+              definition:  I2C_IRQHandler
+              definition:  SPI_IRQHandler
+              definition:  TIM1_CAP_COM_IRQHandler
+              definition:  TIM1_UPD_OVF_TRG_BRK_IRQHandler
+              definition:  TIM2_CAP_COM_IRQHandler
+              definition:  TIM2_UPD_OVF_BRK_IRQHandler
+              definition:  TIM4_UPD_OVF_IRQHandler
+              definition:  TLI_IRQHandler
+              definition:  TRAP_IRQHandler
+              definition:  UART1_RX_IRQHandler
+              definition:  UART1_TX_IRQHandler
+              definition:  _interrupt_1
+              definition:  _interrupt_12
+              definition:  _interrupt_13
+              definition:  _interrupt_14
+              definition:  _interrupt_15
+              definition:  _interrupt_16
+              definition:  _interrupt_19
+              definition:  _interrupt_2
+              definition:  _interrupt_20
+              definition:  _interrupt_21
+              definition:  _interrupt_24
+              definition:  _interrupt_25
+              definition:  _interrupt_26
+              definition:  _interrupt_3
+              definition:  _interrupt_4
+              definition:  _interrupt_5
+              definition:  _interrupt_6
+              definition:  _interrupt_7
+              definition:  _interrupt_8
+              definition:  _interrupt_9
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_itc.o.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  ?b2
+              reference :  ?b3
+              reference :  ?b4
+              reference :  ?sll16_x_x_a
+              reference :  ?srl8_a_a_b0
+              definition:  ITC_DeInit
+              definition:  ITC_GetCPUCC
+              definition:  ITC_GetSoftIntStatus
+              definition:  ITC_GetSoftwarePriority
+              definition:  ITC_SetSoftwarePriority
+              definition:  __iar_cc..2XoJVvKfEIC
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_iwdg.o.
+              definition:  IWDG_Enable
+              definition:  IWDG_ReloadCounter
+              definition:  IWDG_SetPrescaler
+              definition:  IWDG_SetReload
+              definition:  IWDG_WriteAccessCmd
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_spi.o.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  ?b2
+              reference :  ?b3
+              reference :  ?b4
+              reference :  ?b5
+              reference :  ?b6
+              reference :  ?b7
+              reference :  ?sll16_x_x_a
+              definition:  SPI_BiDirectionalLineConfig
+              definition:  SPI_CalculateCRCCmd
+              definition:  SPI_ClearFlag
+              definition:  SPI_ClearITPendingBit
+              definition:  SPI_Cmd
+              definition:  SPI_DeInit
+              definition:  SPI_GetCRC
+              definition:  SPI_GetCRCPolynomial
+              definition:  SPI_GetFlagStatus
+              definition:  SPI_GetITStatus
+              definition:  SPI_ITConfig
+              definition:  SPI_Init
+              definition:  SPI_NSSInternalSoftwareCmd
+              definition:  SPI_ReceiveData
+              definition:  SPI_ResetCRC
+              definition:  SPI_SendData
+              definition:  SPI_TransmitCRC
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_tim1.o.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  ?b2
+              reference :  ?b3
+              reference :  ?b4
+              reference :  ?b5
+              reference :  ?b6
+              reference :  ?b7
+              reference :  ?b8
+              reference :  ?w0
+              definition:  TIM1_ARRPreloadConfig
+              definition:  TIM1_BDTRConfig
+              definition:  TIM1_CCPreloadControl
+              definition:  TIM1_CCxCmd
+              definition:  TIM1_CCxNCmd
+              definition:  TIM1_ClearFlag
+              definition:  TIM1_ClearITPendingBit
+              definition:  TIM1_Cmd
+              definition:  TIM1_CounterModeConfig
+              definition:  TIM1_CtrlPWMOutputs
+              definition:  TIM1_DeInit
+              definition:  TIM1_ETRClockMode1Config
+              definition:  TIM1_ETRClockMode2Config
+              definition:  TIM1_ETRConfig
+              definition:  TIM1_EncoderInterfaceConfig
+              definition:  TIM1_ForcedOC1Config
+              definition:  TIM1_ForcedOC2Config
+              definition:  TIM1_ForcedOC3Config
+              definition:  TIM1_ForcedOC4Config
+              definition:  TIM1_GenerateEvent
+              definition:  TIM1_GetCapture1
+              definition:  TIM1_GetCapture2
+              definition:  TIM1_GetCapture3
+              definition:  TIM1_GetCapture4
+              definition:  TIM1_GetCounter
+              definition:  TIM1_GetFlagStatus
+              definition:  TIM1_GetITStatus
+              definition:  TIM1_GetPrescaler
+              definition:  TIM1_ICInit
+              definition:  TIM1_ITConfig
+              definition:  TIM1_InternalClockConfig
+              definition:  TIM1_OC1FastConfig
+              definition:  TIM1_OC1Init
+              definition:  TIM1_OC1NPolarityConfig
+              definition:  TIM1_OC1PolarityConfig
+              definition:  TIM1_OC1PreloadConfig
+              definition:  TIM1_OC2FastConfig
+              definition:  TIM1_OC2Init
+              definition:  TIM1_OC2NPolarityConfig
+              definition:  TIM1_OC2PolarityConfig
+              definition:  TIM1_OC2PreloadConfig
+              definition:  TIM1_OC3FastConfig
+              definition:  TIM1_OC3Init
+              definition:  TIM1_OC3NPolarityConfig
+              definition:  TIM1_OC3PolarityConfig
+              definition:  TIM1_OC3PreloadConfig
+              definition:  TIM1_OC4FastConfig
+              definition:  TIM1_OC4Init
+              definition:  TIM1_OC4PolarityConfig
+              definition:  TIM1_OC4PreloadConfig
+              definition:  TIM1_PWMIConfig
+              definition:  TIM1_PrescalerConfig
+              definition:  TIM1_SelectCOM
+              definition:  TIM1_SelectHallSensor
+              definition:  TIM1_SelectInputTrigger
+              definition:  TIM1_SelectMasterSlaveMode
+              definition:  TIM1_SelectOCxM
+              definition:  TIM1_SelectOnePulseMode
+              definition:  TIM1_SelectOutputTrigger
+              definition:  TIM1_SelectSlaveMode
+              definition:  TIM1_SetAutoreload
+              definition:  TIM1_SetCompare1
+              definition:  TIM1_SetCompare2
+              definition:  TIM1_SetCompare3
+              definition:  TIM1_SetCompare4
+              definition:  TIM1_SetCounter
+              definition:  TIM1_SetIC1Prescaler
+              definition:  TIM1_SetIC2Prescaler
+              definition:  TIM1_SetIC3Prescaler
+              definition:  TIM1_SetIC4Prescaler
+              definition:  TIM1_TIxExternalClockConfig
+              definition:  TIM1_TimeBaseInit
+              definition:  TIM1_UpdateDisableConfig
+              definition:  TIM1_UpdateRequestConfig
+              definition:  __iar_cc..eBxa3ljX3H8
+Loading object D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_uart1.o.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  ?b15
+              reference :  ?b2
+              reference :  ?b3
+              reference :  ?b4
+              reference :  ?b5
+              reference :  ?b6
+              reference :  ?b7
+              reference :  ?epilogue_l2_l3
+              reference :  ?load32_dbsp_l0
+              reference :  ?load32_l0_dbsp
+              reference :  ?mov_l0_l2
+              reference :  ?mov_l0_l3
+              reference :  ?mov_l1_l0
+              reference :  ?mov_l1_l2
+              reference :  ?mov_l2_l0
+              reference :  ?mov_l3_l0
+              reference :  ?mul32_l0_l0_dl
+              reference :  ?pop_l1
+              reference :  ?push_l0
+              reference :  ?push_l2
+              reference :  ?push_l3
+              reference :  ?sll16_x_x_a
+              reference :  ?sll32_l0_l0_a
+              reference :  ?srl16_x_x_4
+              reference :  ?sub32_l0_l0_l1
+              reference :  ?udiv32_l0_l0_dl
+              reference :  ?udiv32_l0_l0_l1
+              reference :  ?w0
+              reference :  ?w6
+              reference :  ?w7
+              reference :  CLK_GetClockFreq
+              definition:  UART1_ClearFlag
+              definition:  UART1_ClearITPendingBit
+              definition:  UART1_Cmd
+              definition:  UART1_DeInit
+              definition:  UART1_GetFlagStatus
+              definition:  UART1_GetITStatus
+              definition:  UART1_HalfDuplexCmd
+              definition:  UART1_ITConfig
+              definition:  UART1_Init
+              definition:  UART1_IrDACmd
+              definition:  UART1_IrDAConfig
+              definition:  UART1_LINBreakDetectionConfig
+              definition:  UART1_LINCmd
+              definition:  UART1_ReceiveData8
+              definition:  UART1_ReceiveData9
+              definition:  UART1_ReceiverWakeUpCmd
+              definition:  UART1_SendBreak
+              definition:  UART1_SendData8
+              definition:  UART1_SendData9
+              definition:  UART1_SetAddress
+              definition:  UART1_SetGuardTime
+              definition:  UART1_SetPrescaler
+              definition:  UART1_SmartCardCmd
+              definition:  UART1_SmartCardNACKCmd
+              definition:  UART1_WakeUpConfig
+              definition:  __iar_cc..6jvslHm5031
+
+Auto library: dlstm8smn.a -> D:\IAR\stm8\lib\dlstm8smn.a
+Auto library: dbgstm8smd.a -> D:\IAR\stm8\lib\dbgstm8smd.a
+
+Library configuration:
+
+  no_inline  __DebugBreak
+Selecting member cstartup.o(dlstm8smn.a) to define __iar_program_start.
+              reference :  SHT$$INIT_ARRAY$$Limit
+              reference :  SHT$$PREINIT_ARRAY$$Base
+              reference :  __call_ctors
+              reference :  __iar_data_init2
+              reference :  __intvec
+              reference :  __low_level_init
+              reference :  exit
+              reference :  main
+              definition:  ??call_ctors
+              definition:  __iar_cstart_call_ctors
+              definition:  __iar_program_start
+              reference :  CSTACK$$Limit
+Selecting member vregs.o(dlstm8smn.a) to define ?b0.
+              definition:  ?b0
+              definition:  ?b1
+              definition:  ?b10
+              definition:  ?b11
+              definition:  ?b12
+              definition:  ?b13
+              definition:  ?b14
+              definition:  ?b15
+              definition:  ?b2
+              definition:  ?b3
+              definition:  ?b4
+              definition:  ?b5
+              definition:  ?b6
+              definition:  ?b7
+              definition:  ?b8
+              definition:  ?b9
+              definition:  ?e0
+              definition:  ?e1
+              definition:  ?e2
+              definition:  ?e3
+              definition:  ?l0
+              definition:  ?l1
+              definition:  ?l2
+              definition:  ?l3
+              definition:  ?w0
+              definition:  ?w1
+              definition:  ?w2
+              definition:  ?w3
+              definition:  ?w4
+              definition:  ?w5
+              definition:  ?w6
+              definition:  ?w7
+Selecting member vreg_util.o(dlstm8smn.a) to define ?epilogue_l2_w6.
+              reference :  ?e0
+              reference :  ?e1
+              reference :  ?e2
+              reference :  ?e3
+              reference :  ?l0
+              reference :  ?l1
+              reference :  ?l2
+              reference :  ?l3
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              reference :  ?w3
+              reference :  ?w4
+              reference :  ?w5
+              reference :  ?w6
+              reference :  ?w7
+              definition:  ?epilogue_l2
+              definition:  ?epilogue_l2_l3
+              definition:  ?epilogue_l2_w6
+              definition:  ?epilogue_w4
+              definition:  ?mov_e0_e1
+              definition:  ?mov_e0_e2
+              definition:  ?mov_e0_e3
+              definition:  ?mov_e1_e0
+              definition:  ?mov_e1_e2
+              definition:  ?mov_e1_e3
+              definition:  ?mov_e2_e0
+              definition:  ?mov_e2_e1
+              definition:  ?mov_e2_e3
+              definition:  ?mov_e3_e0
+              definition:  ?mov_e3_e1
+              definition:  ?mov_e3_e2
+              definition:  ?mov_l0_l1
+              definition:  ?mov_l0_l2
+              definition:  ?mov_l0_l3
+              definition:  ?mov_l1_l0
+              definition:  ?mov_l1_l2
+              definition:  ?mov_l1_l3
+              definition:  ?mov_l2_l0
+              definition:  ?mov_l2_l1
+              definition:  ?mov_l2_l3
+              definition:  ?mov_l3_l0
+              definition:  ?mov_l3_l1
+              definition:  ?mov_l3_l2
+              definition:  ?mov_w0_w1
+              definition:  ?mov_w0_w2
+              definition:  ?mov_w0_w3
+              definition:  ?mov_w0_w4
+              definition:  ?mov_w0_w5
+              definition:  ?mov_w0_w6
+              definition:  ?mov_w0_w7
+              definition:  ?mov_w1_w0
+              definition:  ?mov_w1_w2
+              definition:  ?mov_w1_w3
+              definition:  ?mov_w1_w4
+              definition:  ?mov_w1_w5
+              definition:  ?mov_w1_w6
+              definition:  ?mov_w1_w7
+              definition:  ?mov_w2_w0
+              definition:  ?mov_w2_w1
+              definition:  ?mov_w2_w3
+              definition:  ?mov_w2_w4
+              definition:  ?mov_w2_w5
+              definition:  ?mov_w2_w6
+              definition:  ?mov_w2_w7
+              definition:  ?mov_w3_w0
+              definition:  ?mov_w3_w1
+              definition:  ?mov_w3_w2
+              definition:  ?mov_w3_w4
+              definition:  ?mov_w3_w5
+              definition:  ?mov_w3_w6
+              definition:  ?mov_w3_w7
+              definition:  ?mov_w4_w0
+              definition:  ?mov_w4_w1
+              definition:  ?mov_w4_w2
+              definition:  ?mov_w4_w3
+              definition:  ?mov_w4_w5
+              definition:  ?mov_w4_w6
+              definition:  ?mov_w4_w7
+              definition:  ?mov_w5_w0
+              definition:  ?mov_w5_w1
+              definition:  ?mov_w5_w2
+              definition:  ?mov_w5_w3
+              definition:  ?mov_w5_w4
+              definition:  ?mov_w5_w6
+              definition:  ?mov_w5_w7
+              definition:  ?mov_w6_w0
+              definition:  ?mov_w6_w1
+              definition:  ?mov_w6_w2
+              definition:  ?mov_w6_w3
+              definition:  ?mov_w6_w4
+              definition:  ?mov_w6_w5
+              definition:  ?mov_w6_w7
+              definition:  ?mov_w7_w0
+              definition:  ?mov_w7_w1
+              definition:  ?mov_w7_w2
+              definition:  ?mov_w7_w3
+              definition:  ?mov_w7_w4
+              definition:  ?mov_w7_w5
+              definition:  ?mov_w7_w6
+              definition:  ?pop_e0
+              definition:  ?pop_e1
+              definition:  ?pop_e2
+              definition:  ?pop_e3
+              definition:  ?pop_l0
+              definition:  ?pop_l1
+              definition:  ?pop_l2
+              definition:  ?pop_l3
+              definition:  ?pop_w0
+              definition:  ?pop_w1
+              definition:  ?pop_w2
+              definition:  ?pop_w3
+              definition:  ?pop_w4
+              definition:  ?pop_w5
+              definition:  ?pop_w6
+              definition:  ?pop_w7
+              definition:  ?push_e0
+              definition:  ?push_e1
+              definition:  ?push_e2
+              definition:  ?push_e3
+              definition:  ?push_l0
+              definition:  ?push_l1
+              definition:  ?push_l2
+              definition:  ?push_l3
+              definition:  ?push_w0
+              definition:  ?push_w1
+              definition:  ?push_w2
+              definition:  ?push_w3
+              definition:  ?push_w4
+              definition:  ?push_w5
+              definition:  ?push_w6
+              definition:  ?push_w7
+Selecting member move.o(dlstm8smn.a) to define ?move1616_v_x_y_a.
+              reference :  ?e0
+              reference :  ?e1
+              reference :  ?store8eeprom_0x_a
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              definition:  ?longfarg16_v_w0_a
+              definition:  ?longfarg16_v_w0_x
+              definition:  ?longfarg24_v_e0_x
+              definition:  ?move1616_v_x_y_a
+              definition:  ?move1616_v_x_y_tos16
+              definition:  ?move1624_v_x_e0_y
+              definition:  ?move16eeprom16_v_x_y_w0
+              definition:  ?move16eeprom24_v_x_e0_y
+              definition:  ?move2416_v_e0_x_y
+              definition:  ?move2424_v_e0_e1_x
+Selecting member short.o(dlstm8smn.a) to define ?or16_x_x_dw.
+              reference :  ?dc16_w0
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              reference :  ?w3
+              reference :  ?w4
+              reference :  ?w5
+              reference :  ?w6
+              reference :  ?w7
+              definition:  ?and16_x_x_dw
+              definition:  ?and16_x_x_w0
+              definition:  ?and16_x_x_w1
+              definition:  ?and16_x_x_w2
+              definition:  ?and16_x_x_w3
+              definition:  ?and16_x_x_w4
+              definition:  ?and16_x_x_w5
+              definition:  ?and16_x_x_w6
+              definition:  ?and16_x_x_w7
+              definition:  ?mul16_x_x_w0
+              definition:  ?or16_x_x_dw
+              definition:  ?or16_x_x_w0
+              definition:  ?or16_x_x_w1
+              definition:  ?or16_x_x_w2
+              definition:  ?or16_x_x_w3
+              definition:  ?or16_x_x_w4
+              definition:  ?or16_x_x_w5
+              definition:  ?or16_x_x_w6
+              definition:  ?or16_x_x_w7
+              definition:  ?sdiv16_x_x_y
+              definition:  ?sext16_x_a
+              definition:  ?sll16_x_x_10
+              definition:  ?sll16_x_x_11
+              definition:  ?sll16_x_x_12
+              definition:  ?sll16_x_x_13
+              definition:  ?sll16_x_x_14
+              definition:  ?sll16_x_x_15
+              definition:  ?sll16_x_x_4
+              definition:  ?sll16_x_x_5
+              definition:  ?sll16_x_x_6
+              definition:  ?sll16_x_x_7
+              definition:  ?sll16_x_x_8
+              definition:  ?sll16_x_x_9
+              definition:  ?sll16_x_x_a
+              definition:  ?smod16_y_x_y
+              definition:  ?sra16_x_x_10
+              definition:  ?sra16_x_x_11
+              definition:  ?sra16_x_x_12
+              definition:  ?sra16_x_x_13
+              definition:  ?sra16_x_x_14
+              definition:  ?sra16_x_x_15
+              definition:  ?sra16_x_x_4
+              definition:  ?sra16_x_x_5
+              definition:  ?sra16_x_x_6
+              definition:  ?sra16_x_x_7
+              definition:  ?sra16_x_x_8
+              definition:  ?sra16_x_x_9
+              definition:  ?sra16_x_x_a
+              definition:  ?srl16_x_x_10
+              definition:  ?srl16_x_x_11
+              definition:  ?srl16_x_x_12
+              definition:  ?srl16_x_x_13
+              definition:  ?srl16_x_x_14
+              definition:  ?srl16_x_x_15
+              definition:  ?srl16_x_x_4
+              definition:  ?srl16_x_x_5
+              definition:  ?srl16_x_x_6
+              definition:  ?srl16_x_x_7
+              definition:  ?srl16_x_x_8
+              definition:  ?srl16_x_x_9
+              definition:  ?srl16_x_x_a
+              definition:  ?xor16_x_x_dw
+              definition:  ?xor16_x_x_w0
+              definition:  ?xor16_x_x_w1
+              definition:  ?xor16_x_x_w2
+              definition:  ?xor16_x_x_w3
+              definition:  ?xor16_x_x_w4
+              definition:  ?xor16_x_x_w5
+              definition:  ?xor16_x_x_w6
+              definition:  ?xor16_x_x_w7
+Selecting member memcpy.o(dlstm8smn.a) to define memcpy.
+              reference :  ?mov_w2_w1
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              definition:  memcpy
+Selecting member memset.o(dlstm8smn.a) to define memset.
+              reference :  ?w0
+              reference :  ?w1
+              definition:  memset
+Selecting member strlen.o(dlstm8smn.a) to define strlen.
+              reference :  ?w0
+              definition:  strlen
+Selecting member long.o(dlstm8smn.a) to define ?udiv32_l0_l0_dl.
+              reference :  ?dc32_l0
+              reference :  ?dc32_l1
+              reference :  ?dc32_px
+              reference :  ?dc8_px
+              reference :  ?l0
+              reference :  ?l1
+              reference :  ?l2
+              reference :  ?l3
+              definition:  ?add32_l0_l0_0x
+              definition:  ?add32_l0_l0_dl
+              definition:  ?add32_l0_l0_l1
+              definition:  ?and32_l0_l0_0x
+              definition:  ?and32_l0_l0_l1
+              definition:  ?dec32_0x_0x
+              definition:  ?dec32_l0_l0
+              definition:  ?dec32_l1_l1
+              definition:  ?dec32_l2_l2
+              definition:  ?dec32_l3_l3
+              definition:  ?inc32_0x_0x
+              definition:  ?inc32_l0_l0
+              definition:  ?inc32_l1_l1
+              definition:  ?inc32_l2_l2
+              definition:  ?inc32_l3_l3
+              definition:  ?mul32_l0_l0_0x
+              definition:  ?mul32_l0_l0_dl
+              definition:  ?mul32_l0_l0_l1
+              definition:  ?neg32_l0_l0
+              definition:  ?not32_l0_l0
+              definition:  ?or32_l0_l0_0x
+              definition:  ?or32_l0_l0_l1
+              definition:  ?scmp32_c_l0_0x
+              definition:  ?scmp32_c_l0_l1
+              definition:  ?sdiv32_l0_dl_l1
+              definition:  ?sdiv32_l0_l0_dl
+              definition:  ?sdiv32_l0_l0_l1
+              definition:  ?sext32_l0_a
+              definition:  ?sext32_l0_x
+              definition:  ?sll32_0x_0x_a
+              definition:  ?sll32_l0_l0_a
+              definition:  ?sll32_l0_l0_db
+              definition:  ?smod32_l1_dl_l1
+              definition:  ?smod32_l1_l0_dl
+              definition:  ?smod32_l1_l0_l1
+              definition:  ?sra32_0x_0x_a
+              definition:  ?sra32_l0_l0_a
+              definition:  ?sra32_l0_l0_db
+              definition:  ?srl32_0x_0x_a
+              definition:  ?srl32_l0_l0_a
+              definition:  ?srl32_l0_l0_db
+              definition:  ?sub32_l0_dl_l1
+              definition:  ?sub32_l0_l0_0x
+              definition:  ?sub32_l0_l0_dl
+              definition:  ?sub32_l0_l0_l1
+              definition:  ?ucmp32_c_l0_0x
+              definition:  ?ucmp32_c_l0_l1
+              definition:  ?udiv32_l0_dl_l1
+              definition:  ?udiv32_l0_l0_dl
+              definition:  ?udiv32_l0_l0_l1
+              definition:  ?umod32_l1_dl_l1
+              definition:  ?umod32_l1_l0_dl
+              definition:  ?umod32_l1_l0_l1
+              definition:  ?xor32_l0_l0_0x
+              definition:  ?xor32_l0_l0_l1
+Selecting member char.o(dlstm8smn.a) to define ?sll8_a_a_6.
+              reference :  ?b0
+              definition:  ?sdiv8_xl_a_b0
+              definition:  ?sll8_a_a_5
+              definition:  ?sll8_a_a_6
+              definition:  ?sll8_a_a_b0
+              definition:  ?smod8_a_b0_a
+              definition:  ?sra8_a_a_4
+              definition:  ?sra8_a_a_5
+              definition:  ?sra8_a_a_6
+              definition:  ?sra8_a_a_7
+              definition:  ?sra8_a_a_b0
+              definition:  ?srl8_a_a_5
+              definition:  ?srl8_a_a_6
+              definition:  ?srl8_a_a_b0
+Selecting member long_util.o(dlstm8smn.a) to define ?load32_dbsp_l0.
+              reference :  ?l0
+              reference :  ?l1
+              reference :  ?l2
+              reference :  ?l3
+              definition:  ?load32_0x_l0
+              definition:  ?load32_0x_l1
+              definition:  ?load32_0x_l2
+              definition:  ?load32_0x_l3
+              definition:  ?load32_asp_l0
+              definition:  ?load32_asp_l1
+              definition:  ?load32_asp_l2
+              definition:  ?load32_asp_l3
+              definition:  ?load32_dbsp_l0
+              definition:  ?load32_dbsp_l1
+              definition:  ?load32_dbsp_l2
+              definition:  ?load32_dbsp_l3
+              definition:  ?load32_l0_0x
+              definition:  ?load32_l0_asp
+              definition:  ?load32_l0_dbsp
+              definition:  ?load32_l0_xsp
+              definition:  ?load32_l1_0x
+              definition:  ?load32_l1_asp
+              definition:  ?load32_l1_dbsp
+              definition:  ?load32_l1_xsp
+              definition:  ?load32_l2_0x
+              definition:  ?load32_l2_asp
+              definition:  ?load32_l2_dbsp
+              definition:  ?load32_l2_xsp
+              definition:  ?load32_l3_0x
+              definition:  ?load32_l3_asp
+              definition:  ?load32_l3_dbsp
+              definition:  ?load32_l3_xsp
+              definition:  ?load32_xsp_l0
+              definition:  ?load32_xsp_l1
+              definition:  ?load32_xsp_l2
+              definition:  ?load32_xsp_l3
+Selecting member cppinit.o(dlstm8smn.a) to define __call_ctors.
+              reference :  ?epilogue_l2
+              reference :  ?push_l2
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              reference :  ?w3
+              reference :  ?w4
+              reference :  ?w5
+              reference :  __cstart_call_dtors
+              definition:  __call_ctors
+              definition:  __call_dtors
+              definition:  __cxa_atexit
+              definition:  __cxa_finalize
+              definition:  __dso_handle
+              reference :  .iar.dynexit$$Limit
+              reference :  .iar.dynexit$$Base
+Selecting member init.o(dlstm8smn.a) to define __iar_data_init2.
+              definition:  __iar_data_init2
+              reference :  Region$$Table$$Base
+              reference :  Region$$Table$$Limit
+Selecting member interrupt.o(dlstm8smn.a) to define __intvec.
+              reference :  __iar_program_start
+              reference :  __iar_unhandled_exception
+              definition:  __intvec
+              weak def  :  _interrupt_1
+              weak def  :  _interrupt_10
+              weak def  :  _interrupt_11
+              weak def  :  _interrupt_12
+              weak def  :  _interrupt_13
+              weak def  :  _interrupt_14
+              weak def  :  _interrupt_15
+              weak def  :  _interrupt_16
+              weak def  :  _interrupt_17
+              weak def  :  _interrupt_18
+              weak def  :  _interrupt_19
+              weak def  :  _interrupt_2
+              weak def  :  _interrupt_20
+              weak def  :  _interrupt_21
+              weak def  :  _interrupt_22
+              weak def  :  _interrupt_23
+              weak def  :  _interrupt_24
+              weak def  :  _interrupt_25
+              weak def  :  _interrupt_26
+              weak def  :  _interrupt_27
+              weak def  :  _interrupt_28
+              weak def  :  _interrupt_29
+              weak def  :  _interrupt_3
+              weak def  :  _interrupt_30
+              weak def  :  _interrupt_31
+              weak def  :  _interrupt_4
+              weak def  :  _interrupt_5
+              weak def  :  _interrupt_6
+              weak def  :  _interrupt_7
+              weak def  :  _interrupt_8
+              weak def  :  _interrupt_9
+Selecting member low_level_init.o(dlstm8smn.a) to define __low_level_init.
+              definition:  __low_level_init
+Selecting member exit.o(dlstm8smn.a) to define exit.
+              reference :  _exit
+              definition:  exit
+Selecting member dc_util.o(dlstm8smn.a) to define ?dc16_w0.
+              reference :  ?load32_l0_0x
+              reference :  ?load32_l1_0x
+              reference :  ?load32_l2_0x
+              reference :  ?load32_l3_0x
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              reference :  ?w3
+              reference :  ?w4
+              reference :  ?w5
+              reference :  ?w6
+              reference :  ?w7
+              definition:  ?dc16_px
+              definition:  ?dc16_w0
+              definition:  ?dc16_w1
+              definition:  ?dc16_w2
+              definition:  ?dc16_w3
+              definition:  ?dc16_w4
+              definition:  ?dc16_w5
+              definition:  ?dc16_w6
+              definition:  ?dc16_w7
+              definition:  ?dc32_l0
+              definition:  ?dc32_l1
+              definition:  ?dc32_l2
+              definition:  ?dc32_l3
+              definition:  ?dc32_px
+              definition:  ?dc8_px
+Selecting member cexit.o(dlstm8smn.a) to define __cstart_call_dtors.
+              reference :  _Close_all
+              reference :  __call_dtors
+              reference :  __exit
+              reference :  __iar_clearlocks
+              definition:  __cstart_call_dtors
+              definition:  __cstart_clearlocks
+              definition:  __cstart_closeall
+              definition:  _exit
+Selecting member unhandled_exception.o(dlstm8smn.a) to define __iar_unhandled_exception.
+              definition:  __iar_unhandled_exception
+Selecting member xcloseall.o(dlstm8smn.a) to define _Close_all.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  __write
+              definition:  _Close_all
+Selecting member __dbg_xxexit.o(dbgstm8smd.a) to define __exit.
+              reference :  ?push_w4
+              reference :  ?w4
+              reference :  __DebugBreak
+              definition:  __exit
+Selecting member __dbg_xxwrite.o(dbgstm8smd.a) to define __write.
+              reference :  __dwrite
+              definition:  __write
+Selecting member __dbg_break.o(dbgstm8smd.a) to define __DebugBreak.
+              definition:  __DebugBreak
+Selecting member __dbg_xxdwrite.o(dbgstm8smd.a) to define __dwrite.
+              reference :  ?w0
+              reference :  __DebugBreak
+              definition:  __dwrite
+Selecting member init_small.o(dlstm8smn.a) to define __iar_zero_init2.
+              reference :  ?w0
+              reference :  ?w1
+              definition:  __iar_copy_init2
+              definition:  __iar_zero_init2
+Resolving duplicate symbol definitions
+  Picking _interrupt_1 [s8 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_1 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_14 [s19 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_14 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_15 [s20 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_15 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_12 [s17 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_12 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_13 [s18 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_13 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_2 [s9 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_2 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_16 [s21 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_16 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_19 [s22 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_19 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_20 [s23 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_20 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_21 [s24 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_21 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_24 [s25 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_24 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_25 [s26 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_25 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_26 [s27 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_26 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_3 [s10 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_3 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_4 [s11 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_4 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_5 [s12 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_5 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_6 [s13 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_6 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_7 [s14 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_7 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_8 [s15 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_8 [s6 interrupt.o(dlstm8smn.a)]
+  Picking _interrupt_9 [s16 D:\Prj_temp\Proj_l8_stm8exBoard\Debug\Obj\stm8s_it.o]
+    Suppressing _interrupt_9 [s6 interrupt.o(dlstm8smn.a)]
+*** Marking from roots ***
+Marking symbol __iar_program_start              Glb (19 cstartup.o) [program entry]
+  Marking fragment #2470 .near_func.text (7 cstartup.o(dlstm8smn.a)) init:always
+Marking symbol __iar_section$$root                  (3 cstartup.o) [__root]
+  Marking fragment #2472 .near_func.text (7 cstartup.o(dlstm8smn.a))
+Marking symbol __iar_section$$root                  (3 interrupt.o) [__root]
+  Marking fragment #2346 .intvec (7 interrupt.o(dlstm8smn.a))
+Marking symbol __iar_section$$root                  (3 unhandled_exception.o) [__root]
+  Marking fragment #2381 .near_func.text (6 unhandled_exception.o(dlstm8smn.a))
+Marking from fragment #2381 .near_func.text (6 unhandled_exception.o(dlstm8smn.a))
+Marking from fragment #2346 .intvec (7 interrupt.o(dlstm8smn.a))
+  Marking symbol __iar_program_start              Glb (19 cstartup.o)
+  Marking symbol _interrupt_1                     Glb (176 stm8s_it.o)
+    Marking fragment #613 .near_func.text (8 stm8s_it.o)
+  Marking symbol _interrupt_2                     Glb (183 stm8s_it.o)
+    Marking fragment #614 .near_func.text (9 stm8s_it.o)
+  Marking symbol _interrupt_3                     Glb (189 stm8s_it.o)
+    Marking fragment #615 .near_func.text (10 stm8s_it.o)
+  Marking symbol _interrupt_4                     Glb (190 stm8s_it.o)
+    Marking fragment #616 .near_func.text (11 stm8s_it.o)
+  Marking symbol _interrupt_5                     Glb (191 stm8s_it.o)
+    Marking fragment #617 .near_func.text (12 stm8s_it.o)
+  Marking symbol _interrupt_6                     Glb (192 stm8s_it.o)
+    Marking fragment #618 .near_func.text (13 stm8s_it.o)
+  Marking symbol _interrupt_7                     Glb (193 stm8s_it.o)
+    Marking fragment #619 .near_func.text (14 stm8s_it.o)
+  Marking symbol _interrupt_8                     Glb (194 stm8s_it.o)
+    Marking fragment #620 .near_func.text (15 stm8s_it.o)
+  Marking symbol _interrupt_9                     Glb (195 stm8s_it.o)
+    Marking fragment #621 .near_func.text (16 stm8s_it.o)
+  Marking symbol _interrupt_10                        (13 interrupt.o)
+    Marking fragment #2345 .near_func.text (6 interrupt.o(dlstm8smn.a))
+  Marking symbol _interrupt_11                        (14 interrupt.o)
+  Marking symbol _interrupt_12                    Glb (177 stm8s_it.o)
+    Marking fragment #622 .near_func.text (17 stm8s_it.o)
+  Marking symbol _interrupt_13                    Glb (178 stm8s_it.o)
+    Marking fragment #623 .near_func.text (18 stm8s_it.o)
+  Marking symbol _interrupt_14                    Glb (179 stm8s_it.o)
+    Marking fragment #624 .near_func.text (19 stm8s_it.o)
+  Marking symbol _interrupt_15                    Glb (180 stm8s_it.o)
+    Marking fragment #625 .near_func.text (20 stm8s_it.o)
+  Marking symbol _interrupt_16                    Glb (181 stm8s_it.o)
+    Marking fragment #626 .near_func.text (21 stm8s_it.o)
+  Marking symbol _interrupt_17                        (20 interrupt.o)
+  Marking symbol _interrupt_18                        (21 interrupt.o)
+  Marking symbol _interrupt_19                    Glb (182 stm8s_it.o)
+    Marking fragment #627 .near_func.text (22 stm8s_it.o)
+  Marking symbol _interrupt_20                    Glb (184 stm8s_it.o)
+    Marking fragment #628 .near_func.text (23 stm8s_it.o)
+  Marking symbol _interrupt_21                    Glb (185 stm8s_it.o)
+    Marking fragment #629 .near_func.text (24 stm8s_it.o)
+  Marking symbol _interrupt_22                        (26 interrupt.o)
+  Marking symbol _interrupt_23                        (27 interrupt.o)
+  Marking symbol _interrupt_24                    Glb (186 stm8s_it.o)
+    Marking fragment #630 .near_func.text (25 stm8s_it.o)
+  Marking symbol _interrupt_25                    Glb (187 stm8s_it.o)
+    Marking fragment #631 .near_func.text (26 stm8s_it.o)
+  Marking symbol _interrupt_26                    Glb (188 stm8s_it.o)
+    Marking fragment #632 .near_func.text (27 stm8s_it.o)
+  Marking symbol _interrupt_27                        (31 interrupt.o)
+  Marking symbol _interrupt_28                        (32 interrupt.o)
+  Marking symbol _interrupt_29                        (33 interrupt.o)
+  Marking symbol _interrupt_30                        (35 interrupt.o)
+  Marking symbol _interrupt_31                        (36 interrupt.o)
+Marking from fragment #632 .near_func.text (27 stm8s_it.o)
+Marking from fragment #631 .near_func.text (26 stm8s_it.o)
+Marking from fragment #630 .near_func.text (25 stm8s_it.o)
+Marking from fragment #629 .near_func.text (24 stm8s_it.o)
+Marking from fragment #628 .near_func.text (23 stm8s_it.o)
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+    Marking fragment #2502 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+    Marking fragment #2503 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol interruptHandleFunc_uartRx       Glb (227 main.o)
+    Marking fragment #25 .near_func.text (30 main.o)
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+    Marking fragment #2508 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+    Marking fragment #2507 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2507 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+    Marking fragment #2473 .vregs (6 vregs.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+    Marking fragment #2511 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+Marking from fragment #2511 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2473 .vregs (6 vregs.o(dlstm8smn.a))
+Marking from fragment #2508 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+Marking from fragment #25 .near_func.text (30 main.o)
+  Marking symbol ?push_w4                         Glb (364 vreg_util.o)
+    Marking fragment #2479 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol UART1_ClearITPendingBit          Glb (227 stm8s_uart1.o)
+    Marking fragment #1780 .near_func.text (32 stm8s_uart1.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+    Marking fragment #9 .near.bss (14 main.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?push_w0                         Glb (360 vreg_util.o)
+    Marking fragment #2475 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol UART1_ReceiveData8               Glb (239 stm8s_uart1.o)
+    Marking fragment #1769 .near_func.text (21 stm8s_uart1.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+    Marking fragment #8 .near.data (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol ?epilogue_w4                     Glb (255 vreg_util.o)
+    Marking fragment #2515 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2515 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?pop_w4                          Glb (348 vreg_util.o)
+    Marking fragment #2488 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2488 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+    Marking fragment #2492 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+Marking from fragment #2492 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #8 .near.data (13 main.o)
+Marking from fragment #1769 .near_func.text (21 stm8s_uart1.o)
+Marking from fragment #2475 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+    Marking fragment #2483 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+Marking from fragment #2483 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #9 .near.bss (14 main.o)
+Marking from fragment #1780 .near_func.text (32 stm8s_uart1.o)
+Marking from fragment #2479 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+Marking from fragment #2503 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+    Marking fragment #2506 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+Marking from fragment #2506 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2502 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+Marking from fragment #627 .near_func.text (22 stm8s_it.o)
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+  Marking symbol interruptHandleFunc_uartTx       Glb (228 main.o)
+    Marking fragment #24 .near_func.text (29 main.o)
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+Marking from fragment #24 .near_func.text (29 main.o)
+  Marking symbol UART1_GetFlagStatus              Glb (230 stm8s_uart1.o)
+    Marking fragment #1777 .near_func.text (29 stm8s_uart1.o)
+  Marking symbol UART1_ClearITPendingBit          Glb (227 stm8s_uart1.o)
+Marking from fragment #1777 .near_func.text (29 stm8s_uart1.o)
+Marking from fragment #626 .near_func.text (21 stm8s_it.o)
+Marking from fragment #625 .near_func.text (20 stm8s_it.o)
+Marking from fragment #624 .near_func.text (19 stm8s_it.o)
+Marking from fragment #623 .near_func.text (18 stm8s_it.o)
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+  Marking symbol interruptHandleFunc_timer1       Glb (226 main.o)
+    Marking fragment #19 .near_func.text (24 main.o)
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+Marking from fragment #19 .near_func.text (24 main.o)
+  Marking symbol ?push_l2                         Glb (358 vreg_util.o)
+    Marking fragment #2504 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?push_w6                         Glb (366 vreg_util.o)
+    Marking fragment #2481 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?b14                             Glb (12 vregs.o)
+    Marking fragment #2474 .vregs (6 vregs.o(dlstm8smn.a))
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol ?b14                             Glb (12 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol TIM1_ClearITPendingBit           Glb (562 stm8s_tim1.o)
+    Marking fragment #1123 .near_func.text (77 stm8s_tim1.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+    Marking fragment #5 .near.bss (10 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+    Marking fragment #516 .near_func.text (11 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+    Marking fragment #517 .near_func.text (12 stm8s_gpio.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+    Marking fragment #23 .near.bss (28 main.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+    Marking fragment #7 .near.data (12 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+    Marking fragment #20 .near.bss (25 main.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+    Marking fragment #4 .near.bss (9 main.o)
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+    Marking fragment #21 .near.bss (26 main.o)
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+  Marking symbol IWDG_ReloadCounter               Glb (44 stm8s_iwdg.o)
+    Marking fragment #855 .near_func.text (11 stm8s_iwdg.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1ms     (18 main.o)
+    Marking fragment #22 .near.bss (27 main.o)
+  Marking symbol ?b14                             Glb (12 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1ms     (18 main.o)
+  Marking symbol ?b14                             Glb (12 vregs.o)
+  Marking symbol ?epilogue_l2_w6                  Glb (254 vreg_util.o)
+    Marking fragment #2514 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol interruptHandleFunc_timer1::counter_1ms     (18 main.o)
+  Marking symbol dataReq_actionCounter                (8 main.o)
+    Marking fragment #3 .near.data (8 main.o)
+  Marking symbol dataReq_actionCounter                (8 main.o)
+  Marking symbol dataReq_actionCounter                (8 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+    Marking fragment #6 .near.bss (11 main.o)
+  Marking symbol                                      (159 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol                                      (160 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+Marking from fragment #6 .near.bss (11 main.o)
+Marking from fragment #3 .near.data (8 main.o)
+Marking from fragment #2514 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?pop_w6                          Glb (350 vreg_util.o)
+    Marking fragment #2490 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?pop_l2                          Glb (342 vreg_util.o)
+    Marking fragment #2509 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2509 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+Marking from fragment #2490 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+Marking from fragment #22 .near.bss (27 main.o)
+Marking from fragment #855 .near_func.text (11 stm8s_iwdg.o)
+Marking from fragment #21 .near.bss (26 main.o)
+Marking from fragment #4 .near.bss (9 main.o)
+Marking from fragment #20 .near.bss (25 main.o)
+Marking from fragment #7 .near.data (12 main.o)
+Marking from fragment #23 .near.bss (28 main.o)
+Marking from fragment #517 .near_func.text (12 stm8s_gpio.o)
+Marking from fragment #516 .near_func.text (11 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #5 .near.bss (10 main.o)
+Marking from fragment #1123 .near_func.text (77 stm8s_tim1.o)
+Marking from fragment #2474 .vregs (6 vregs.o(dlstm8smn.a))
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #2481 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+Marking from fragment #2504 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+Marking from fragment #622 .near_func.text (17 stm8s_it.o)
+Marking from fragment #2345 .near_func.text (6 interrupt.o(dlstm8smn.a))
+  Marking symbol __iar_unhandled_exception        Glb (7 unhandled_exception.o)
+Marking from fragment #621 .near_func.text (16 stm8s_it.o)
+Marking from fragment #620 .near_func.text (15 stm8s_it.o)
+Marking from fragment #619 .near_func.text (14 stm8s_it.o)
+Marking from fragment #618 .near_func.text (13 stm8s_it.o)
+Marking from fragment #617 .near_func.text (12 stm8s_it.o)
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+  Marking symbol interruptHandleFunc_exitElecSouceMeasure Glb (225 main.o)
+    Marking fragment #26 .near_func.text (31 main.o)
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+Marking from fragment #26 .near_func.text (31 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+Marking from fragment #616 .near_func.text (11 stm8s_it.o)
+Marking from fragment #615 .near_func.text (10 stm8s_it.o)
+Marking from fragment #614 .near_func.text (9 stm8s_it.o)
+Marking from fragment #613 .near_func.text (8 stm8s_it.o)
+Marking from fragment #2472 .near_func.text (7 cstartup.o(dlstm8smn.a))
+  Marking symbol main                             Glb (229 main.o)
+    Marking fragment #32 .near_func.text (37 main.o)
+  Marking symbol exit                             Glb (8 exit.o)
+    Marking fragment #2353 .near_func.text (6 exit.o(dlstm8smn.a))
+Marking from fragment #2353 .near_func.text (6 exit.o(dlstm8smn.a))
+  Marking symbol _exit                            Glb (21 cexit.o)
+    Marking fragment #2791 .near_func.text (6 cexit.o(dlstm8smn.a))
+Marking from fragment #2791 .near_func.text (6 cexit.o(dlstm8smn.a))
+  Marking symbol .near_func.text_5                    (12 cexit.o)
+    Marking fragment #2795 .near_func.text (6 cexit.o(dlstm8smn.a))
+Marking from fragment #2795 .near_func.text (6 cexit.o(dlstm8smn.a))
+  Marking symbol __exit                           Glb (18 __dbg_xxexit.o)
+    Marking fragment #2390 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+Marking from fragment #2390 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol ?push_w4                         Glb (364 vreg_util.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol __DebugBreak                     Glb (15 __dbg_break.o)
+    Marking fragment #2420 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #2420 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #32 .near_func.text (37 main.o)
+  Marking symbol bsp_initialize                       (7 main.o)
+    Marking fragment #18 .near_func.text (23 main.o)
+  Marking symbol process_uartDataRcv_timeOut_funcHandle     (22 main.o)
+    Marking fragment #29 .near_func.text (34 main.o)
+  Marking symbol process_bussinessDeviceDriver        (21 main.o)
+    Marking fragment #31 .near_func.text (36 main.o)
+Marking from fragment #31 .near_func.text (36 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol .near.rodata39                       (76 main.o)
+    Marking fragment #34 .near.rodata (39 main.o)
+  Marking symbol ?move1616_v_x_y_a                Glb (37 move.o)
+    Marking fragment #2597 .near_func.text (6 move.o(dlstm8smn.a))
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol memcpy                           Glb (11 memcpy.o)
+    Marking fragment #2208 .near_func.text (7 memcpy.o(dlstm8smn.a))
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol frame_Check                          (16 main.o)
+    Marking fragment #13 .near_func.text (18 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol usrApp_deviceDriverByMcu_applicationExecute     (23 main.o)
+    Marking fragment #30 .near_func.text (35 main.o)
+  Marking symbol frame_Check                          (16 main.o)
+  Marking symbol usrApp_uart1DataSend                 (24 main.o)
+    Marking fragment #27 .near_func.text (32 main.o)
+  Marking symbol .near.rodata40                       (78 main.o)
+    Marking fragment #35 .near.rodata (40 main.o)
+  Marking symbol usrApp_uart1StringSend               (25 main.o)
+    Marking fragment #28 .near_func.text (33 main.o)
+  Marking symbol .near.rodata41                       (80 main.o)
+    Marking fragment #36 .near.rodata (41 main.o)
+  Marking symbol usrApp_uart1StringSend               (25 main.o)
+Marking from fragment #36 .near.rodata (41 main.o)
+Marking from fragment #28 .near_func.text (33 main.o)
+  Marking symbol ?push_w4                         Glb (364 vreg_util.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol strlen                           Glb (8 strlen.o)
+    Marking fragment #2218 .near_func.text (7 strlen.o(dlstm8smn.a))
+  Marking symbol UART1_GetFlagStatus              Glb (230 stm8s_uart1.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol UART1_SendData8                  Glb (243 stm8s_uart1.o)
+    Marking fragment #1771 .near_func.text (23 stm8s_uart1.o)
+  Marking symbol UART1_GetFlagStatus              Glb (230 stm8s_uart1.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?epilogue_w4                     Glb (255 vreg_util.o)
+Marking from fragment #1771 .near_func.text (23 stm8s_uart1.o)
+Marking from fragment #2218 .near_func.text (7 strlen.o(dlstm8smn.a))
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+Marking from fragment #35 .near.rodata (40 main.o)
+Marking from fragment #27 .near_func.text (32 main.o)
+  Marking symbol ?push_l2                         Glb (358 vreg_util.o)
+  Marking symbol ?push_w6                         Glb (366 vreg_util.o)
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol ?b9                              Glb (21 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b11                             Glb (9 vregs.o)
+  Marking symbol ?b10                             Glb (8 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol devUart_dataSendBuf                  (14 main.o)
+    Marking fragment #10 .near.bss (15 main.o)
+  Marking symbol memset                           Glb (9 memset.o)
+    Marking fragment #2213 .near_func.text (7 memset.o(dlstm8smn.a))
+  Marking symbol ?mov_w0_w5                       Glb (284 vreg_util.o)
+    Marking fragment #2520 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol devUart_dataSendBuf                  (14 main.o)
+  Marking symbol memcpy                           Glb (11 memcpy.o)
+  Marking symbol ?b9                              Glb (21 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol UART1_GetFlagStatus              Glb (230 stm8s_uart1.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol devUart_dataSendBuf                  (14 main.o)
+  Marking symbol UART1_SendData8                  Glb (243 stm8s_uart1.o)
+  Marking symbol UART1_GetFlagStatus              Glb (230 stm8s_uart1.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?epilogue_l2_w6                  Glb (254 vreg_util.o)
+Marking from fragment #2520 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+Marking from fragment #2213 .near_func.text (7 memset.o(dlstm8smn.a))
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+Marking from fragment #10 .near.bss (15 main.o)
+Marking from fragment #30 .near_func.text (35 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol memset                           Glb (9 memset.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol                                      (162 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?or16_x_x_dw                     Glb (163 short.o)
+    Marking fragment #2618 .near_func.text (6 short.o(dlstm8smn.a))
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?sll16_x_x_a                     Glb (186 short.o)
+    Marking fragment #2636 .near_func.text (6 short.o(dlstm8smn.a))
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+Marking from fragment #2636 .near_func.text (6 short.o(dlstm8smn.a))
+Marking from fragment #2618 .near_func.text (6 short.o(dlstm8smn.a))
+  Marking symbol ?or16_x_x_w0                     Glb (164 short.o)
+    Marking fragment #2619 .near_func.text (6 short.o(dlstm8smn.a))
+  Marking symbol ?dc16_w0                         Glb (47 dc_util.o)
+    Marking fragment #2777 .near_func.text (6 dc_util.o(dlstm8smn.a))
+Marking from fragment #2777 .near_func.text (6 dc_util.o(dlstm8smn.a))
+  Marking symbol ?w0                              Glb (30 vregs.o)
+Marking from fragment #2619 .near_func.text (6 short.o(dlstm8smn.a))
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+Marking from fragment #13 .near_func.text (18 main.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+Marking from fragment #2208 .near_func.text (7 memcpy.o(dlstm8smn.a))
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?mov_w2_w1                       Glb (295 vreg_util.o)
+    Marking fragment #2528 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w2                              Glb (32 vregs.o)
+  Marking symbol ?w2                              Glb (32 vregs.o)
+  Marking symbol ?w2                              Glb (32 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+Marking from fragment #2528 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w2                              Glb (32 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w2                              Glb (32 vregs.o)
+Marking from fragment #2597 .near_func.text (6 move.o(dlstm8smn.a))
+  Marking symbol                                      (25 move.o)
+Marking from fragment #34 .near.rodata (39 main.o)
+Marking from fragment #29 .near_func.text (34 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol memset                           Glb (9 memset.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol memcpy                           Glb (11 memcpy.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol memset                           Glb (9 memset.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+Marking from fragment #18 .near_func.text (23 main.o)
+  Marking symbol CLK_HSECmd                       Glb (202 stm8s_clk.o)
+    Marking fragment #241 .near_func.text (12 stm8s_clk.o)
+  Marking symbol CLK_HSICmd                       Glb (203 stm8s_clk.o)
+    Marking fragment #242 .near_func.text (13 stm8s_clk.o)
+  Marking symbol CLK_HSIPrescalerConfig           Glb (204 stm8s_clk.o)
+    Marking fragment #249 .near_func.text (20 stm8s_clk.o)
+  Marking symbol ITC_DeInit                       Glb (50 stm8s_itc.o)
+    Marking fragment #800 .near_func.text (9 stm8s_itc.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ITC_SetSoftwarePriority          Glb (54 stm8s_itc.o)
+    Marking fragment #803 .near_func.text (12 stm8s_itc.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ITC_SetSoftwarePriority          Glb (54 stm8s_itc.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ITC_SetSoftwarePriority          Glb (54 stm8s_itc.o)
+  Marking symbol bspInit_timer1                   Glb (223 main.o)
+    Marking fragment #11 .near_func.text (16 main.o)
+  Marking symbol bspInit_exti_sourceWaveMeasure       (3 main.o)
+    Marking fragment #14 .near_func.text (19 main.o)
+  Marking symbol bspInit_watchDog                     (6 main.o)
+    Marking fragment #15 .near_func.text (20 main.o)
+  Marking symbol bspInit_gpio_hardwareRelay           (4 main.o)
+    Marking fragment #16 .near_func.text (21 main.o)
+  Marking symbol bspInit_uart_dataTrans               (5 main.o)
+    Marking fragment #17 .near_func.text (22 main.o)
+Marking from fragment #17 .near_func.text (22 main.o)
+  Marking symbol UART1_DeInit                     Glb (229 stm8s_uart1.o)
+    Marking fragment #1756 .near_func.text (8 stm8s_uart1.o)
+  Marking symbol ?b7                              Glb (19 vregs.o)
+  Marking symbol ?b6                              Glb (18 vregs.o)
+  Marking symbol ?b5                              Glb (17 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol UART1_Init                       Glb (234 stm8s_uart1.o)
+    Marking fragment #1757 .near_func.text (9 stm8s_uart1.o)
+  Marking symbol UART1_ITConfig                   Glb (233 stm8s_uart1.o)
+    Marking fragment #1759 .near_func.text (11 stm8s_uart1.o)
+  Marking symbol UART1_Cmd                        Glb (228 stm8s_uart1.o)
+    Marking fragment #1758 .near_func.text (10 stm8s_uart1.o)
+Marking from fragment #1758 .near_func.text (10 stm8s_uart1.o)
+Marking from fragment #1759 .near_func.text (11 stm8s_uart1.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?sll16_x_x_a                     Glb (186 short.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+Marking from fragment #1757 .near_func.text (9 stm8s_uart1.o)
+  Marking symbol ?push_l2                         Glb (358 vreg_util.o)
+  Marking symbol ?push_l3                         Glb (359 vreg_util.o)
+    Marking fragment #2505 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?b6                              Glb (18 vregs.o)
+  Marking symbol ?b7                              Glb (19 vregs.o)
+  Marking symbol ?mov_l2_l0                       Glb (274 vreg_util.o)
+    Marking fragment #2578 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?w7                              Glb (37 vregs.o)
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b5                              Glb (17 vregs.o)
+  Marking symbol ?mov_l0_l2                       Glb (269 vreg_util.o)
+    Marking fragment #2563 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?sll32_l0_l0_a                   Glb (159 long.o)
+    Marking fragment #2719 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+  Marking symbol CLK_GetClockFreq                 Glb (198 stm8s_clk.o)
+    Marking fragment #256 .near_func.text (27 stm8s_clk.o)
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+  Marking symbol ?udiv32_l0_l0_l1                 Glb (178 long.o)
+    Marking fragment #2701 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?mov_l3_l0                       Glb (277 vreg_util.o)
+    Marking fragment #2587 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_l0_l2                       Glb (269 vreg_util.o)
+  Marking symbol ?sll32_l0_l0_a                   Glb (159 long.o)
+  Marking symbol ?mov_l2_l0                       Glb (274 vreg_util.o)
+  Marking symbol CLK_GetClockFreq                 Glb (198 stm8s_clk.o)
+  Marking symbol ?mul32_l0_l0_dl                  Glb (145 long.o)
+    Marking fragment #2694 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?mov_l1_l2                       Glb (272 vreg_util.o)
+    Marking fragment #2572 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?udiv32_l0_l0_l1                 Glb (178 long.o)
+  Marking symbol ?load32_dbsp_l0                  Glb (80 long_util.o)
+    Marking fragment #2758 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?mov_l0_l3                       Glb (270 vreg_util.o)
+    Marking fragment #2566 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mul32_l0_l0_dl                  Glb (145 long.o)
+  Marking symbol ?mov_l1_l0                       Glb (271 vreg_util.o)
+    Marking fragment #2569 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?load32_l0_dbsp                  Glb (86 long_util.o)
+    Marking fragment #2742 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?sub32_l0_l0_l1                  Glb (173 long.o)
+    Marking fragment #2692 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?sll32_l0_l0_a                   Glb (159 long.o)
+  Marking symbol ?udiv32_l0_l0_dl                 Glb (177 long.o)
+    Marking fragment #2700 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?w7                              Glb (37 vregs.o)
+  Marking symbol ?srl16_x_x_4                     Glb (207 short.o)
+    Marking fragment #2662 .near_func.text (6 short.o(dlstm8smn.a))
+  Marking symbol ?b15                             Glb (13 vregs.o)
+  Marking symbol ?epilogue_l2_l3                  Glb (253 vreg_util.o)
+    Marking fragment #2512 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2512 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?epilogue_l2                     Glb (252 vreg_util.o)
+    Marking fragment #2513 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?pop_l3                          Glb (343 vreg_util.o)
+    Marking fragment #2510 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #2510 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l3                              Glb (29 vregs.o)
+  Marking symbol ?l3                              Glb (29 vregs.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+Marking from fragment #2513 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?pop_l2                          Glb (342 vreg_util.o)
+Marking from fragment #2662 .near_func.text (6 short.o(dlstm8smn.a))
+Marking from fragment #2700 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?udiv32_l0_l0_l1                 Glb (178 long.o)
+  Marking symbol ?dc32_l1                         Glb (56 dc_util.o)
+    Marking fragment #2787 .near_func.text (6 dc_util.o(dlstm8smn.a))
+Marking from fragment #2787 .near_func.text (6 dc_util.o(dlstm8smn.a))
+  Marking symbol ?load32_l1_0x                    Glb (88 long_util.o)
+    Marking fragment #2749 .near_func.text (6 long_util.o(dlstm8smn.a))
+Marking from fragment #2749 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+Marking from fragment #2692 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?sub32_l0_l0_0x                  Glb (171 long.o)
+    Marking fragment #2693 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?l1                              Glb (27 vregs.o)
+Marking from fragment #2693 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2742 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?load32_l0_asp                   Glb (85 long_util.o)
+    Marking fragment #2743 .near_func.text (6 long_util.o(dlstm8smn.a))
+Marking from fragment #2743 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?load32_l0_xsp                   Glb (87 long_util.o)
+    Marking fragment #2744 .near_func.text (6 long_util.o(dlstm8smn.a))
+Marking from fragment #2744 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?load32_l0_0x                    Glb (84 long_util.o)
+    Marking fragment #2745 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2745 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2569 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_e1_e0                       Glb (259 vreg_util.o)
+    Marking fragment #2570 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+Marking from fragment #2570 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_w3_w1                       Glb (302 vreg_util.o)
+    Marking fragment #2571 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?e0                              Glb (22 vregs.o)
+  Marking symbol ?e1                              Glb (23 vregs.o)
+Marking from fragment #2571 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w3                              Glb (33 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w3                              Glb (33 vregs.o)
+Marking from fragment #2566 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_e0_e3                       Glb (258 vreg_util.o)
+    Marking fragment #2567 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l3                              Glb (29 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2567 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_w1_w7                       Glb (293 vreg_util.o)
+    Marking fragment #2568 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?e3                              Glb (25 vregs.o)
+  Marking symbol ?e0                              Glb (22 vregs.o)
+Marking from fragment #2568 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w7                              Glb (37 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w7                              Glb (37 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+Marking from fragment #2758 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?load32_asp_l0                   Glb (76 long_util.o)
+    Marking fragment #2759 .near_func.text (6 long_util.o(dlstm8smn.a))
+Marking from fragment #2759 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?load32_xsp_l0                   Glb (100 long_util.o)
+    Marking fragment #2760 .near_func.text (6 long_util.o(dlstm8smn.a))
+Marking from fragment #2760 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?load32_0x_l0                    Glb (72 long_util.o)
+    Marking fragment #2761 .near_func.text (6 long_util.o(dlstm8smn.a))
+Marking from fragment #2761 .near_func.text (6 long_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2572 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_e1_e2                       Glb (260 vreg_util.o)
+    Marking fragment #2573 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+Marking from fragment #2573 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_w3_w5                       Glb (305 vreg_util.o)
+    Marking fragment #2574 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?e2                              Glb (24 vregs.o)
+  Marking symbol ?e1                              Glb (23 vregs.o)
+Marking from fragment #2574 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w3                              Glb (33 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w3                              Glb (33 vregs.o)
+Marking from fragment #2694 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?mul32_l0_l0_0x                  Glb (144 long.o)
+    Marking fragment #2695 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?dc32_px                         Glb (59 dc_util.o)
+    Marking fragment #2790 .near_func.text (6 dc_util.o(dlstm8smn.a))
+Marking from fragment #2790 .near_func.text (6 dc_util.o(dlstm8smn.a))
+Marking from fragment #2695 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?mul32_l0_l0_l1                  Glb (146 long.o)
+    Marking fragment #2696 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+Marking from fragment #2696 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2587 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_e3_e0                       Glb (265 vreg_util.o)
+    Marking fragment #2588 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l3                              Glb (29 vregs.o)
+Marking from fragment #2588 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_w7_w1                       Glb (330 vreg_util.o)
+    Marking fragment #2589 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?e0                              Glb (22 vregs.o)
+  Marking symbol ?e3                              Glb (25 vregs.o)
+Marking from fragment #2589 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w7                              Glb (37 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w7                              Glb (37 vregs.o)
+Marking from fragment #2701 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #256 .near_func.text (27 stm8s_clk.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?b5                              Glb (17 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b6                              Glb (18 vregs.o)
+  Marking symbol ?b6                              Glb (18 vregs.o)
+  Marking symbol ?b5                              Glb (17 vregs.o)
+  Marking symbol ?b5                              Glb (17 vregs.o)
+  Marking symbol ?b5                              Glb (17 vregs.o)
+  Marking symbol ?b5                              Glb (17 vregs.o)
+  Marking symbol HSIDivFactor                     Glb (212 stm8s_clk.o)
+    Marking fragment #237 .near.rodata (8 stm8s_clk.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?w3                              Glb (33 vregs.o)
+  Marking symbol ?w2                              Glb (32 vregs.o)
+  Marking symbol ?udiv32_l0_dl_l1                 Glb (176 long.o)
+    Marking fragment #2699 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+Marking from fragment #2699 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?dc32_l0                         Glb (55 dc_util.o)
+    Marking fragment #2786 .near_func.text (6 dc_util.o(dlstm8smn.a))
+  Marking symbol ?udiv32_l0_l0_l1                 Glb (178 long.o)
+Marking from fragment #2786 .near_func.text (6 dc_util.o(dlstm8smn.a))
+  Marking symbol ?load32_l0_0x                    Glb (84 long_util.o)
+Marking from fragment #237 .near.rodata (8 stm8s_clk.o)
+Marking from fragment #2719 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?sll32_0x_0x_a                   Glb (158 long.o)
+    Marking fragment #2720 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2720 .near_func.text (6 long.o(dlstm8smn.a))
+  Marking symbol                                      (115 long.o)
+  Marking symbol                                      (116 long.o)
+Marking from fragment #2563 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_e0_e2                       Glb (257 vreg_util.o)
+    Marking fragment #2564 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol ?l0                              Glb (26 vregs.o)
+Marking from fragment #2564 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_w1_w5                       Glb (291 vreg_util.o)
+    Marking fragment #2565 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?e2                              Glb (24 vregs.o)
+  Marking symbol ?e0                              Glb (22 vregs.o)
+Marking from fragment #2565 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+Marking from fragment #2578 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_e2_e0                       Glb (262 vreg_util.o)
+    Marking fragment #2579 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol ?l2                              Glb (28 vregs.o)
+Marking from fragment #2579 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?mov_w5_w1                       Glb (316 vreg_util.o)
+    Marking fragment #2580 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?e0                              Glb (22 vregs.o)
+  Marking symbol ?e2                              Glb (24 vregs.o)
+Marking from fragment #2580 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w5                              Glb (35 vregs.o)
+Marking from fragment #2505 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?l3                              Glb (29 vregs.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+Marking from fragment #1756 .near_func.text (8 stm8s_uart1.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #16 .near_func.text (21 main.o)
+  Marking symbol GPIO_DeInit                      Glb (80 stm8s_gpio.o)
+    Marking fragment #513 .near_func.text (8 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+    Marking fragment #514 .near_func.text (9 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_DeInit                      Glb (80 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_DeInit                      Glb (80 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+Marking from fragment #514 .near_func.text (9 stm8s_gpio.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+Marking from fragment #513 .near_func.text (8 stm8s_gpio.o)
+Marking from fragment #15 .near_func.text (20 main.o)
+  Marking symbol IWDG_WriteAccessCmd              Glb (47 stm8s_iwdg.o)
+    Marking fragment #852 .near_func.text (8 stm8s_iwdg.o)
+  Marking symbol IWDG_SetPrescaler                Glb (45 stm8s_iwdg.o)
+    Marking fragment #853 .near_func.text (9 stm8s_iwdg.o)
+  Marking symbol IWDG_SetReload                   Glb (46 stm8s_iwdg.o)
+    Marking fragment #854 .near_func.text (10 stm8s_iwdg.o)
+  Marking symbol IWDG_Enable                      Glb (43 stm8s_iwdg.o)
+    Marking fragment #856 .near_func.text (12 stm8s_iwdg.o)
+Marking from fragment #856 .near_func.text (12 stm8s_iwdg.o)
+Marking from fragment #854 .near_func.text (10 stm8s_iwdg.o)
+Marking from fragment #853 .near_func.text (9 stm8s_iwdg.o)
+Marking from fragment #852 .near_func.text (8 stm8s_iwdg.o)
+Marking from fragment #14 .near_func.text (19 main.o)
+  Marking symbol EXTI_DeInit                      Glb (46 stm8s_exti.o)
+    Marking fragment #462 .near_func.text (8 stm8s_exti.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol EXTI_SetExtIntSensitivity        Glb (49 stm8s_exti.o)
+    Marking fragment #463 .near_func.text (9 stm8s_exti.o)
+  Marking symbol GPIO_DeInit                      Glb (80 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol GPIO_Init                        Glb (82 stm8s_gpio.o)
+Marking from fragment #463 .near_func.text (9 stm8s_exti.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?sll8_a_a_6                      Glb (33 char.o)
+    Marking fragment #2734 .near_func.text (6 char.o(dlstm8smn.a))
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #2734 .near_func.text (6 char.o(dlstm8smn.a))
+  Marking symbol ?sll8_a_a_5                      Glb (32 char.o)
+    Marking fragment #2735 .near_func.text (6 char.o(dlstm8smn.a))
+Marking from fragment #2735 .near_func.text (6 char.o(dlstm8smn.a))
+Marking from fragment #462 .near_func.text (8 stm8s_exti.o)
+Marking from fragment #11 .near_func.text (16 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol TIM1_TimeBaseInit                Glb (627 stm8s_tim1.o)
+    Marking fragment #1055 .near_func.text (9 stm8s_tim1.o)
+  Marking symbol TIM1_GenerateEvent               Glb (575 stm8s_tim1.o)
+    Marking fragment #1097 .near_func.text (51 stm8s_tim1.o)
+  Marking symbol TIM1_ARRPreloadConfig            Glb (556 stm8s_tim1.o)
+    Marking fragment #1086 .near_func.text (40 stm8s_tim1.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol TIM1_ITConfig                    Glb (585 stm8s_tim1.o)
+    Marking fragment #1065 .near_func.text (19 stm8s_tim1.o)
+  Marking symbol TIM1_Cmd                         Glb (563 stm8s_tim1.o)
+    Marking fragment #1063 .near_func.text (17 stm8s_tim1.o)
+Marking from fragment #1063 .near_func.text (17 stm8s_tim1.o)
+Marking from fragment #1065 .near_func.text (19 stm8s_tim1.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+Marking from fragment #1086 .near_func.text (40 stm8s_tim1.o)
+Marking from fragment #1097 .near_func.text (51 stm8s_tim1.o)
+Marking from fragment #1055 .near_func.text (9 stm8s_tim1.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #803 .near_func.text (12 stm8s_itc.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?sll16_x_x_a                     Glb (186 short.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?sll16_x_x_a                     Glb (186 short.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b2                              Glb (14 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol ?b3                              Glb (15 vregs.o)
+  Marking symbol ?b4                              Glb (16 vregs.o)
+Marking from fragment #800 .near_func.text (9 stm8s_itc.o)
+Marking from fragment #249 .near_func.text (20 stm8s_clk.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #242 .near_func.text (13 stm8s_clk.o)
+Marking from fragment #241 .near_func.text (12 stm8s_clk.o)
+Marking from fragment #2470 .near_func.text (7 cstartup.o(dlstm8smn.a)) init:always
+  Marking symbol __intvec                         Glb (11 interrupt.o)
+    Marking fragment #2346 .intvec (7 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol CSTACK$$Limit                    Ext (20 cstartup.o)
+  Marking symbol __low_level_init                 Glb (7 low_level_init.o)
+    Marking fragment #2349 .near_func.text (6 low_level_init.o(dlstm8smn.a)) init:always
+  Marking symbol __iar_data_init2                 Glb (8 init.o)
+    Marking fragment #2340 .near_func.text (6 init.o(dlstm8smn.a)) init:always
+Marking from fragment #2340 .near_func.text (6 init.o(dlstm8smn.a)) init:always
+  Marking symbol Region$$Table$$Base              Ext (9 init.o)
+  Marking symbol Region$$Table$$Limit             Ext (10 init.o)
+Marking from fragment #2349 .near_func.text (6 low_level_init.o(dlstm8smn.a)) init:always
+Marking from fragment #2346 .intvec (7 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol __iar_program_start              Glb (19 cstartup.o)
+  Marking symbol _interrupt_1                     Glb (176 stm8s_it.o)
+    Marking fragment #613 .near_func.text (8 stm8s_it.o) init:always
+  Marking symbol _interrupt_2                     Glb (183 stm8s_it.o)
+    Marking fragment #614 .near_func.text (9 stm8s_it.o) init:always
+  Marking symbol _interrupt_3                     Glb (189 stm8s_it.o)
+    Marking fragment #615 .near_func.text (10 stm8s_it.o) init:always
+  Marking symbol _interrupt_4                     Glb (190 stm8s_it.o)
+    Marking fragment #616 .near_func.text (11 stm8s_it.o) init:always
+  Marking symbol _interrupt_5                     Glb (191 stm8s_it.o)
+    Marking fragment #617 .near_func.text (12 stm8s_it.o) init:always
+  Marking symbol _interrupt_6                     Glb (192 stm8s_it.o)
+    Marking fragment #618 .near_func.text (13 stm8s_it.o) init:always
+  Marking symbol _interrupt_7                     Glb (193 stm8s_it.o)
+    Marking fragment #619 .near_func.text (14 stm8s_it.o) init:always
+  Marking symbol _interrupt_8                     Glb (194 stm8s_it.o)
+    Marking fragment #620 .near_func.text (15 stm8s_it.o) init:always
+  Marking symbol _interrupt_9                     Glb (195 stm8s_it.o)
+    Marking fragment #621 .near_func.text (16 stm8s_it.o) init:always
+  Marking symbol _interrupt_10                        (13 interrupt.o)
+    Marking fragment #2345 .near_func.text (6 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol _interrupt_11                        (14 interrupt.o)
+  Marking symbol _interrupt_12                    Glb (177 stm8s_it.o)
+    Marking fragment #622 .near_func.text (17 stm8s_it.o) init:always
+  Marking symbol _interrupt_13                    Glb (178 stm8s_it.o)
+    Marking fragment #623 .near_func.text (18 stm8s_it.o) init:always
+  Marking symbol _interrupt_14                    Glb (179 stm8s_it.o)
+    Marking fragment #624 .near_func.text (19 stm8s_it.o) init:always
+  Marking symbol _interrupt_15                    Glb (180 stm8s_it.o)
+    Marking fragment #625 .near_func.text (20 stm8s_it.o) init:always
+  Marking symbol _interrupt_16                    Glb (181 stm8s_it.o)
+    Marking fragment #626 .near_func.text (21 stm8s_it.o) init:always
+  Marking symbol _interrupt_17                        (20 interrupt.o)
+  Marking symbol _interrupt_18                        (21 interrupt.o)
+  Marking symbol _interrupt_19                    Glb (182 stm8s_it.o)
+    Marking fragment #627 .near_func.text (22 stm8s_it.o) init:always
+  Marking symbol _interrupt_20                    Glb (184 stm8s_it.o)
+    Marking fragment #628 .near_func.text (23 stm8s_it.o) init:always
+  Marking symbol _interrupt_21                    Glb (185 stm8s_it.o)
+    Marking fragment #629 .near_func.text (24 stm8s_it.o) init:always
+  Marking symbol _interrupt_22                        (26 interrupt.o)
+  Marking symbol _interrupt_23                        (27 interrupt.o)
+  Marking symbol _interrupt_24                    Glb (186 stm8s_it.o)
+    Marking fragment #630 .near_func.text (25 stm8s_it.o) init:always
+  Marking symbol _interrupt_25                    Glb (187 stm8s_it.o)
+    Marking fragment #631 .near_func.text (26 stm8s_it.o) init:always
+  Marking symbol _interrupt_26                    Glb (188 stm8s_it.o)
+    Marking fragment #632 .near_func.text (27 stm8s_it.o) init:always
+  Marking symbol _interrupt_27                        (31 interrupt.o)
+  Marking symbol _interrupt_28                        (32 interrupt.o)
+  Marking symbol _interrupt_29                        (33 interrupt.o)
+  Marking symbol _interrupt_30                        (35 interrupt.o)
+  Marking symbol _interrupt_31                        (36 interrupt.o)
+Marking from fragment #632 .near_func.text (27 stm8s_it.o) init:always
+Marking from fragment #631 .near_func.text (26 stm8s_it.o) init:always
+Marking from fragment #630 .near_func.text (25 stm8s_it.o) init:always
+Marking from fragment #629 .near_func.text (24 stm8s_it.o) init:always
+Marking from fragment #628 .near_func.text (23 stm8s_it.o) init:always
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+    Marking fragment #2502 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+    Marking fragment #2503 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol interruptHandleFunc_uartRx       Glb (227 main.o)
+    Marking fragment #25 .near_func.text (30 main.o) init:always
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+    Marking fragment #2508 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+    Marking fragment #2507 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #2507 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?l0                              Glb (26 vregs.o)
+    Marking fragment #2473 .vregs (6 vregs.o(dlstm8smn.a)) init:always
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+    Marking fragment #2511 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+Marking from fragment #2511 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #2473 .vregs (6 vregs.o(dlstm8smn.a)) init:always
+Marking from fragment #2508 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+Marking from fragment #25 .near_func.text (30 main.o) init:always
+  Marking symbol ?push_w4                         Glb (364 vreg_util.o)
+    Marking fragment #2479 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol UART1_ClearITPendingBit          Glb (227 stm8s_uart1.o)
+    Marking fragment #1780 .near_func.text (32 stm8s_uart1.o) init:always
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+    Marking fragment #9 .near.bss (14 main.o) init:always
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?push_w0                         Glb (360 vreg_util.o)
+    Marking fragment #2475 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol UART1_ReceiveData8               Glb (239 stm8s_uart1.o)
+    Marking fragment #1769 .near_func.text (21 stm8s_uart1.o) init:always
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+    Marking fragment #8 .near.data (13 main.o) init:always
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol ?epilogue_w4                     Glb (255 vreg_util.o)
+    Marking fragment #2515 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #2515 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?pop_w4                          Glb (348 vreg_util.o)
+    Marking fragment #2488 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #2488 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+    Marking fragment #2492 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+Marking from fragment #2492 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #8 .near.data (13 main.o) init:always
+Marking from fragment #1769 .near_func.text (21 stm8s_uart1.o) init:always
+Marking from fragment #2475 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+    Marking fragment #2483 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+Marking from fragment #2483 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #9 .near.bss (14 main.o) init:always
+Marking from fragment #1780 .near_func.text (32 stm8s_uart1.o) init:always
+Marking from fragment #2479 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+Marking from fragment #2503 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?l1                              Glb (27 vregs.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+    Marking fragment #2506 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+Marking from fragment #2506 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #2502 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?l0                              Glb (26 vregs.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+Marking from fragment #627 .near_func.text (22 stm8s_it.o) init:always
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+  Marking symbol interruptHandleFunc_uartTx       Glb (228 main.o)
+    Marking fragment #24 .near_func.text (29 main.o) init:always
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+Marking from fragment #24 .near_func.text (29 main.o) init:always
+  Marking symbol UART1_GetFlagStatus              Glb (230 stm8s_uart1.o)
+    Marking fragment #1777 .near_func.text (29 stm8s_uart1.o) init:always
+  Marking symbol UART1_ClearITPendingBit          Glb (227 stm8s_uart1.o)
+Marking from fragment #1777 .near_func.text (29 stm8s_uart1.o) init:always
+Marking from fragment #626 .near_func.text (21 stm8s_it.o) init:always
+Marking from fragment #625 .near_func.text (20 stm8s_it.o) init:always
+Marking from fragment #624 .near_func.text (19 stm8s_it.o) init:always
+Marking from fragment #623 .near_func.text (18 stm8s_it.o) init:always
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+  Marking symbol interruptHandleFunc_timer1       Glb (226 main.o)
+    Marking fragment #19 .near_func.text (24 main.o) init:always
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+Marking from fragment #19 .near_func.text (24 main.o) init:always
+  Marking symbol ?push_l2                         Glb (358 vreg_util.o)
+    Marking fragment #2504 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?push_w6                         Glb (366 vreg_util.o)
+    Marking fragment #2481 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?b14                             Glb (12 vregs.o)
+    Marking fragment #2474 .vregs (6 vregs.o(dlstm8smn.a)) init:always
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol ?b14                             Glb (12 vregs.o)
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol TIM1_ClearITPendingBit           Glb (562 stm8s_tim1.o)
+    Marking fragment #1123 .near_func.text (77 stm8s_tim1.o) init:always
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+    Marking fragment #5 .near.bss (10 main.o) init:always
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b1                              Glb (7 vregs.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+    Marking fragment #516 .near_func.text (11 stm8s_gpio.o) init:always
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+    Marking fragment #517 .near_func.text (12 stm8s_gpio.o) init:always
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+    Marking fragment #23 .near.bss (28 main.o) init:always
+  Marking symbol ?w4                              Glb (34 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_dimmerFollow     (20 main.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+    Marking fragment #7 .near.data (12 main.o) init:always
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol deviceRunningParam                   (15 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+    Marking fragment #20 .near.bss (25 main.o) init:always
+  Marking symbol ?w5                              Glb (35 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1second     (19 main.o)
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+    Marking fragment #4 .near.bss (9 main.o) init:always
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+    Marking fragment #21 .near.bss (26 main.o) init:always
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+  Marking symbol interruptHandleFunc_timer1::counter_10ms     (17 main.o)
+  Marking symbol IWDG_ReloadCounter               Glb (44 stm8s_iwdg.o)
+    Marking fragment #855 .near_func.text (11 stm8s_iwdg.o) init:always
+  Marking symbol interruptHandleFunc_timer1::counter_1ms     (18 main.o)
+    Marking fragment #22 .near.bss (27 main.o) init:always
+  Marking symbol ?b14                             Glb (12 vregs.o)
+  Marking symbol interruptHandleFunc_timer1::counter_1ms     (18 main.o)
+  Marking symbol ?b14                             Glb (12 vregs.o)
+  Marking symbol ?epilogue_l2_w6                  Glb (254 vreg_util.o)
+    Marking fragment #2514 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol interruptHandleFunc_timer1::counter_1ms     (18 main.o)
+  Marking symbol dataReq_actionCounter                (8 main.o)
+    Marking fragment #3 .near.data (8 main.o) init:always
+  Marking symbol dataReq_actionCounter                (8 main.o)
+  Marking symbol dataReq_actionCounter                (8 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol devUart_dataRcvBuf                   (12 main.o)
+  Marking symbol devUart_dataRcvJudgeAttr             (13 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+    Marking fragment #6 .near.bss (11 main.o) init:always
+  Marking symbol                                      (159 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol                                      (160 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteHigh                   Glb (87 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol devOther_realyMagneticHoldParam      (11 main.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol ?b8                              Glb (20 vregs.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol GPIO_WriteLow                    Glb (88 stm8s_gpio.o)
+  Marking symbol                                      (161 main.o)
+Marking from fragment #6 .near.bss (11 main.o) init:always
+Marking from fragment #3 .near.data (8 main.o) init:always
+Marking from fragment #2514 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?pop_w6                          Glb (350 vreg_util.o)
+    Marking fragment #2490 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?pop_l2                          Glb (342 vreg_util.o)
+    Marking fragment #2509 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+Marking from fragment #2509 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+  Marking symbol .near_func.text_37                   (66 vreg_util.o)
+Marking from fragment #2490 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+  Marking symbol .near_func.text_18                   (33 vreg_util.o)
+Marking from fragment #22 .near.bss (27 main.o) init:always
+Marking from fragment #855 .near_func.text (11 stm8s_iwdg.o) init:always
+Marking from fragment #21 .near.bss (26 main.o) init:always
+Marking from fragment #4 .near.bss (9 main.o) init:always
+Marking from fragment #20 .near.bss (25 main.o) init:always
+Marking from fragment #7 .near.data (12 main.o) init:always
+Marking from fragment #23 .near.bss (28 main.o) init:always
+Marking from fragment #517 .near_func.text (12 stm8s_gpio.o) init:always
+Marking from fragment #516 .near_func.text (11 stm8s_gpio.o) init:always
+  Marking symbol ?b0                              Glb (6 vregs.o)
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #5 .near.bss (10 main.o) init:always
+Marking from fragment #1123 .near_func.text (77 stm8s_tim1.o) init:always
+Marking from fragment #2474 .vregs (6 vregs.o(dlstm8smn.a)) init:always
+  Marking symbol ?b0                              Glb (6 vregs.o)
+Marking from fragment #2481 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?w6                              Glb (36 vregs.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+  Marking symbol .near_func.text_9                    (16 vreg_util.o)
+Marking from fragment #2504 .near_func.text (6 vreg_util.o(dlstm8smn.a)) init:always
+  Marking symbol ?l2                              Glb (28 vregs.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+  Marking symbol .near_func.text_32                   (57 vreg_util.o)
+Marking from fragment #622 .near_func.text (17 stm8s_it.o) init:always
+Marking from fragment #2345 .near_func.text (6 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol __iar_unhandled_exception        Glb (7 unhandled_exception.o)
+    Marking fragment #2381 .near_func.text (6 unhandled_exception.o(dlstm8smn.a)) init:always
+Marking from fragment #2381 .near_func.text (6 unhandled_exception.o(dlstm8smn.a)) init:always
+Marking from fragment #621 .near_func.text (16 stm8s_it.o) init:always
+Marking from fragment #620 .near_func.text (15 stm8s_it.o) init:always
+Marking from fragment #619 .near_func.text (14 stm8s_it.o) init:always
+Marking from fragment #618 .near_func.text (13 stm8s_it.o) init:always
+Marking from fragment #617 .near_func.text (12 stm8s_it.o) init:always
+  Marking symbol ?push_l0                         Glb (356 vreg_util.o)
+  Marking symbol ?push_l1                         Glb (357 vreg_util.o)
+  Marking symbol interruptHandleFunc_exitElecSouceMeasure Glb (225 main.o)
+    Marking fragment #26 .near_func.text (31 main.o) init:always
+  Marking symbol ?pop_l1                          Glb (341 vreg_util.o)
+  Marking symbol ?pop_l0                          Glb (340 vreg_util.o)
+Marking from fragment #26 .near_func.text (31 main.o) init:always
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_freqParam                  (10 main.o)
+  Marking symbol devDimmer_debugParam                 (9 main.o)
+Marking from fragment #616 .near_func.text (11 stm8s_it.o) init:always
+Marking from fragment #615 .near_func.text (10 stm8s_it.o) init:always
+Marking from fragment #614 .near_func.text (9 stm8s_it.o) init:always
+Marking from fragment #613 .near_func.text (8 stm8s_it.o) init:always
+*** Marking optional init routines ***
+Marking fragment #2449 .near_func.text (7 init_small.o(dlstm8smn.a)) {__iar_zero_init2} init:{__iar_zero_init2}
+Marking fragment #2448 .near_func.text (6 init_small.o(dlstm8smn.a)) {__iar_copy_init2} init:{__iar_copy_init2}
+Marking from fragment #2448 .near_func.text (6 init_small.o(dlstm8smn.a)) {__iar_copy_init2} init:{__iar_copy_init2}
+  Marking symbol                                      (9 init_small.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w1                              Glb (31 vregs.o)
+  Marking symbol __iar_copy_init2                 Glb (13 init_small.o)
+Marking from fragment #2449 .near_func.text (7 init_small.o(dlstm8smn.a)) {__iar_zero_init2} init:{__iar_zero_init2}
+  Marking symbol                                      (10 init_small.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol ?w0                              Glb (30 vregs.o)
+  Marking symbol __iar_zero_init2                 Glb (14 init_small.o)
+*** Marking debug sections ***
+
+Unused fragments:
+  Section name     Index  Offset  Size  Object
+  ------------     -----  ------  ----  ------
+  .near_func.text     17     0x0  0x14  main.o
+    delay
+  .near_func.text      8     0x0   0x5  stm8s_beep.o
+    BEEP_DeInit
+  .near_func.text      9     0x0  0x2c
+    BEEP_Init
+  .near_func.text     10     0x0   0xd
+    BEEP_Cmd
+  .near_func.text     11     0x0  0x5b
+    BEEP_LSICalibrationConfig
+  .near.rodata         9     0x0   0x8  stm8s_clk.o
+    CLKPrescTable
+  .near_func.text     10     0x0  0x36
+    CLK_DeInit
+  .near_func.text     11     0x0   0xd
+    CLK_FastHaltWakeUpCmd
+  .near_func.text     14     0x0   0xd
+    CLK_LSICmd
+  .near_func.text     15     0x0   0xd
+    CLK_CCOCmd
+  .near_func.text     16     0x0   0xd
+    CLK_ClockSwitchCmd
+  .near_func.text     17     0x0   0xd
+    CLK_SlowActiveHaltWakeUpCmd
+  .near_func.text     18     0x0  0x58
+    CLK_PeripheralClockConfig
+  .near_func.text     19     0x0  0x85
+    CLK_ClockSwitchConfig
+  .near_func.text     21     0x0  0x17
+    CLK_CCOConfig
+  .near_func.text     22     0x0  0x28
+    CLK_ITConfig
+  .near_func.text     23     0x0  0x30
+    CLK_SYSCLKConfig
+  .near_func.text     24     0x0   0xd
+    CLK_SWIMConfig
+  .near_func.text     25     0x0   0x5
+    CLK_ClockSecuritySystemEnable
+  .near_func.text     26     0x0   0x4
+    CLK_GetSYSCLKSource
+  .near_func.text     28     0x0   0xd
+    CLK_AdjustHSICalibrationValue
+  .near_func.text     29     0x0   0x5
+    CLK_SYSCLKEmergencyClear
+  .near_func.text     30     0x0  0x56
+    CLK_GetFlagStatus
+  .near_func.text     31     0x0  0x31
+    CLK_GetITStatus
+  .near_func.text     32     0x0   0xe
+    CLK_ClearITPendingBit
+  .near_func.text     10     0x0   0xf  stm8s_exti.o
+    EXTI_SetTLISensitivity
+  .near_func.text     11     0x0  0x47
+    EXTI_GetExtIntSensitivity
+  .near_func.text     12     0x0   0xc
+    EXTI_GetTLISensitivity
+  .near_func.text     10     0x0   0x2  stm8s_gpio.o
+    GPIO_Write
+  .near_func.text     13     0x0   0x7
+    GPIO_WriteReverse
+  .near_func.text     14     0x0   0x2
+    GPIO_ReadOutputData
+  .near_func.text     15     0x0   0x3
+    GPIO_ReadInputData
+  .near_func.text     16     0x0   0x7
+    GPIO_ReadInputPin
+  .near_func.text     17     0x0  0x2c
+    GPIO_ExternalPullUpConfig
+  .near_func.text      8     0x0   0x4  stm8s_itc.o
+    ITC_GetCPUCC
+  .near_func.text     10     0x0   0x6
+    ITC_GetSoftIntStatus
+  .near_func.text     11     0x0  0xb0
+    ITC_GetSoftwarePriority
+  .near_func.text      8     0x0  0x15  stm8s_spi.o
+    SPI_DeInit
+  .near_func.text      9     0x0  0x38
+    SPI_Init
+  .near_func.text     10     0x0   0xd
+    SPI_Cmd
+  .near_func.text     10     0xd  0x24
+    SPI_ITConfig
+  .near_func.text     10    0x31   0x4
+    SPI_SendData
+  .near_func.text     10    0x35   0x4
+    SPI_ReceiveData
+  .near_func.text     10    0x39   0xd
+    SPI_NSSInternalSoftwareCmd
+  .near_func.text     10    0x46   0x5
+    SPI_TransmitCRC
+  .near_func.text     10    0x4b   0xd
+    SPI_CalculateCRCCmd
+  .near_func.text     10    0x58  0x14
+    SPI_GetCRC
+  .near_func.text     10    0x6c   0xa
+    SPI_ResetCRC
+  .near_func.text     11     0x0   0x4
+    SPI_GetCRCPolynomial
+  .near_func.text     12     0x0   0xd
+    SPI_BiDirectionalLineConfig
+  .near_func.text     13     0x0  0x18
+    SPI_GetFlagStatus
+  .near_func.text     14     0x0   0x5
+    SPI_ClearFlag
+  .near_func.text     15     0x0  0x48
+    SPI_GetITStatus
+  .near_func.text     16     0x0  0x15
+    SPI_ClearITPendingBit
+  .near_func.text      8     0x0  0x99  stm8s_tim1.o
+    TIM1_DeInit
+  .near_func.text     10     0x0  0x61
+    TIM1_OC1Init
+  .near_func.text     11     0x0  0x61
+    TIM1_OC2Init
+  .near_func.text     12     0x0  0x61
+    TIM1_OC3Init
+  .near_func.text     13     0x0  0x43
+    TIM1_OC4Init
+  .near_func.text     14     0x0  0x1b
+    TIM1_BDTRConfig
+  .near_func.text     15     0x0   0xd
+    TIM1_SetIC4Prescaler
+  .near_func.text     15     0xd  0x2e
+    TI4_Config
+  .near_func.text     15    0x3b   0xd
+    TIM1_SetIC3Prescaler
+  .near_func.text     15    0x48  0x2e
+    TI3_Config
+  .near_func.text     15    0x76   0xd
+    TIM1_SetIC2Prescaler
+  .near_func.text     15    0x83  0x2e
+    TI2_Config
+  .near_func.text     15    0xb1   0xd
+    TIM1_SetIC1Prescaler
+  .near_func.text     15    0xbe  0x2e
+    TI1_Config
+  .near_func.text     15    0xec  0x3f
+    TIM1_ICInit
+  .near_func.text     16     0x0  0x76
+    TIM1_PWMIConfig
+  .near_func.text     18     0x0   0xd
+    TIM1_CtrlPWMOutputs
+  .near_func.text     20     0x0   0x9
+    TIM1_InternalClockConfig
+  .near_func.text     21     0x0   0xc
+    TIM1_ETRClockMode1Config
+  .near_func.text     22     0x0   0x8
+    TIM1_ETRClockMode2Config
+  .near_func.text     23     0x0   0xf
+    TIM1_ETRConfig
+  .near_func.text     24     0x0  0x2d
+    TIM1_TIxExternalClockConfig
+  .near_func.text     25     0x0   0xd
+    TIM1_SelectInputTrigger
+  .near_func.text     26     0x0   0xd
+    TIM1_UpdateDisableConfig
+  .near_func.text     27     0x0   0xd
+    TIM1_UpdateRequestConfig
+  .near_func.text     28     0x0   0xd
+    TIM1_SelectHallSensor
+  .near_func.text     29     0x0   0xd
+    TIM1_SelectOnePulseMode
+  .near_func.text     30     0x0   0xd
+    TIM1_SelectOutputTrigger
+  .near_func.text     31     0x0   0xd
+    TIM1_SelectSlaveMode
+  .near_func.text     32     0x0   0xd
+    TIM1_SelectMasterSlaveMode
+  .near_func.text     33     0x0  0x3d
+    TIM1_EncoderInterfaceConfig
+  .near_func.text     34     0x0  0x10
+    TIM1_PrescalerConfig
+  .near_func.text     35     0x0   0xd
+    TIM1_CounterModeConfig
+  .near_func.text     36     0x0   0xd
+    TIM1_ForcedOC1Config
+  .near_func.text     37     0x0   0xd
+    TIM1_ForcedOC2Config
+  .near_func.text     38     0x0   0xd
+    TIM1_ForcedOC3Config
+  .near_func.text     39     0x0   0xd
+    TIM1_ForcedOC4Config
+  .near_func.text     41     0x0   0xd
+    TIM1_SelectCOM
+  .near_func.text     42     0x0   0xd
+    TIM1_CCPreloadControl
+  .near_func.text     43     0x0   0xd
+    TIM1_OC1PreloadConfig
+  .near_func.text     44     0x0   0xd
+    TIM1_OC2PreloadConfig
+  .near_func.text     45     0x0   0xd
+    TIM1_OC3PreloadConfig
+  .near_func.text     46     0x0   0xd
+    TIM1_OC4PreloadConfig
+  .near_func.text     47     0x0   0xd
+    TIM1_OC1FastConfig
+  .near_func.text     48     0x0   0xd
+    TIM1_OC2FastConfig
+  .near_func.text     49     0x0   0xd
+    TIM1_OC3FastConfig
+  .near_func.text     50     0x0   0xd
+    TIM1_OC4FastConfig
+  .near_func.text     52     0x0   0xd
+    TIM1_OC1PolarityConfig
+  .near_func.text     53     0x0   0xd
+    TIM1_OC1NPolarityConfig
+  .near_func.text     54     0x0   0xd
+    TIM1_OC2PolarityConfig
+  .near_func.text     55     0x0   0xd
+    TIM1_OC2NPolarityConfig
+  .near_func.text     56     0x0   0xd
+    TIM1_OC3PolarityConfig
+  .near_func.text     57     0x0   0xd
+    TIM1_OC3NPolarityConfig
+  .near_func.text     58     0x0   0xd
+    TIM1_OC4PolarityConfig
+  .near_func.text     59     0x0  0x43
+    TIM1_CCxCmd
+  .near_func.text     60     0x0  0x31
+    TIM1_CCxNCmd
+  .near_func.text     61     0x0  0x47
+    TIM1_SelectOCxM
+  .near_func.text     62     0x0   0x9
+    TIM1_SetCounter
+  .near_func.text     63     0x0   0x9
+    TIM1_SetAutoreload
+  .near_func.text     64     0x0   0x9
+    TIM1_SetCompare1
+  .near_func.text     65     0x0   0x9
+    TIM1_SetCompare2
+  .near_func.text     66     0x0   0x9
+    TIM1_SetCompare3
+  .near_func.text     67     0x0   0x9
+    TIM1_SetCompare4
+  .near_func.text     68     0x0  0x2c
+    TIM1_GetCapture1
+  .near_func.text     69     0x0  0x2c
+    TIM1_GetCapture2
+  .near_func.text     70     0x0  0x2c
+    TIM1_GetCapture3
+  .near_func.text     71     0x0  0x2c
+    TIM1_GetCapture4
+  .near_func.text     72     0x0  0x1b
+    TIM1_GetCounter
+  .near_func.text     73     0x0  0x1b
+    TIM1_GetPrescaler
+  .near_func.text     74     0x0  0x25
+    TIM1_GetFlagStatus
+  .near_func.text     75     0x0   0xd
+    TIM1_ClearFlag
+  .near_func.text     76     0x0  0x29
+    TIM1_GetITStatus
+  .near_func.text     12     0x0   0xd  stm8s_uart1.o
+    UART1_HalfDuplexCmd
+  .near_func.text     13     0x0   0xd
+    UART1_IrDAConfig
+  .near_func.text     14     0x0   0xd
+    UART1_IrDACmd
+  .near_func.text     15     0x0   0xd
+    UART1_LINBreakDetectionConfig
+  .near_func.text     16     0x0   0xd
+    UART1_LINCmd
+  .near_func.text     17     0x0   0xd
+    UART1_SmartCardCmd
+  .near_func.text     18     0x0   0xd
+    UART1_SmartCardNACKCmd
+  .near_func.text     19     0x0   0xf
+    UART1_WakeUpConfig
+  .near_func.text     20     0x0   0xd
+    UART1_ReceiverWakeUpCmd
+  .near_func.text     22     0x0  0x27
+    UART1_ReceiveData9
+  .near_func.text     24     0x0  0x18
+    UART1_SendData9
+  .near_func.text     25     0x0   0x5
+    UART1_SendBreak
+  .near_func.text     26     0x0  0x13
+    UART1_SetAddress
+  .near_func.text     27     0x0   0x4
+    UART1_SetGuardTime
+  .near_func.text     28     0x0   0x4
+    UART1_SetPrescaler
+  .near_func.text     30     0x0   0xf
+    UART1_ClearFlag
+  .near_func.text     31     0x0  0x90
+    UART1_GetITStatus
+  .near_func.text      7     0xd   0xa  cstartup.o
+    ??call_ctors
+    __iar_cstart_call_ctors
+  .near_func.text      6     0x5   0x5  vreg_util.o
+    ?push_w1
+  .near_func.text      6     0xa   0x5
+    ?push_w2
+  .near_func.text      6     0xf   0x5
+    ?push_w3
+  .near_func.text      6    0x19   0x5
+    ?push_w5
+  .near_func.text      6    0x23   0x5
+    ?push_w7
+  .near_func.text      6    0x3b   0x7
+    ?pop_w0
+  .near_func.text      6    0x42   0x7
+    ?pop_w1
+  .near_func.text      6    0x49   0x7
+    ?pop_w2
+  .near_func.text      6    0x50   0x7
+    ?pop_w3
+  .near_func.text      6    0x5e   0x7
+    ?pop_w5
+  .near_func.text      6    0x6c   0x7
+    ?pop_w7
+  .near_func.text      6    0x7b  0x18
+    ?push_e0
+  .near_func.text      6    0x93  0x18
+    ?push_e1
+  .near_func.text      6    0xab  0x18
+    ?push_e2
+  .near_func.text      6    0xc3  0x18
+    ?push_e3
+  .near_func.text      6    0xdb   0xf
+    ?pop_e0
+  .near_func.text      6    0xea   0xf
+    ?pop_e1
+  .near_func.text      6    0xf9   0xf
+    ?pop_e2
+  .near_func.text      6   0x108   0xf
+    ?pop_e3
+  .near_func.text      6   0x117   0xb
+  .near_func.text      6   0x199   0x7
+    ?mov_w0_w1
+  .near_func.text      6   0x1a0   0x7
+    ?mov_w0_w2
+  .near_func.text      6   0x1a7   0x7
+    ?mov_w0_w3
+  .near_func.text      6   0x1ae   0x7
+    ?mov_w0_w4
+  .near_func.text      6   0x1bc   0x7
+    ?mov_w0_w6
+  .near_func.text      6   0x1c3   0x7
+    ?mov_w0_w7
+  .near_func.text      6   0x1ca   0x7
+    ?mov_w1_w0
+  .near_func.text      6   0x1d1   0x7
+    ?mov_w1_w2
+  .near_func.text      6   0x1d8   0x7
+    ?mov_w1_w4
+  .near_func.text      6   0x1df   0x7
+    ?mov_w1_w6
+  .near_func.text      6   0x1e6   0x7
+    ?mov_w2_w0
+  .near_func.text      6   0x1f4   0x7
+    ?mov_w2_w3
+  .near_func.text      6   0x1fb   0x7
+    ?mov_w2_w4
+  .near_func.text      6   0x202   0x7
+    ?mov_w2_w5
+  .near_func.text      6   0x209   0x7
+    ?mov_w2_w6
+  .near_func.text      6   0x210   0x7
+    ?mov_w2_w7
+  .near_func.text      6   0x217   0x7
+    ?mov_w3_w0
+  .near_func.text      6   0x21e   0x7
+    ?mov_w3_w2
+  .near_func.text      6   0x225   0x7
+    ?mov_w3_w4
+  .near_func.text      6   0x22c   0x7
+    ?mov_w3_w6
+  .near_func.text      6   0x233   0x7
+    ?mov_w4_w0
+  .near_func.text      6   0x23a   0x7
+    ?mov_w4_w1
+  .near_func.text      6   0x241   0x7
+    ?mov_w4_w2
+  .near_func.text      6   0x248   0x7
+    ?mov_w4_w3
+  .near_func.text      6   0x24f   0x7
+    ?mov_w4_w5
+  .near_func.text      6   0x256   0x7
+    ?mov_w4_w6
+  .near_func.text      6   0x25d   0x7
+    ?mov_w4_w7
+  .near_func.text      6   0x264   0x7
+    ?mov_w5_w0
+  .near_func.text      6   0x26b   0x7
+    ?mov_w5_w2
+  .near_func.text      6   0x272   0x7
+    ?mov_w5_w4
+  .near_func.text      6   0x279   0x7
+    ?mov_w5_w6
+  .near_func.text      6   0x280   0x7
+    ?mov_w6_w0
+  .near_func.text      6   0x287   0x7
+    ?mov_w6_w1
+  .near_func.text      6   0x28e   0x7
+    ?mov_w6_w2
+  .near_func.text      6   0x295   0x7
+    ?mov_w6_w3
+  .near_func.text      6   0x29c   0x7
+    ?mov_w6_w4
+  .near_func.text      6   0x2a3   0x7
+    ?mov_w6_w5
+  .near_func.text      6   0x2aa   0x7
+    ?mov_w6_w7
+  .near_func.text      6   0x2b1   0x7
+    ?mov_w7_w0
+  .near_func.text      6   0x2b8   0x7
+    ?mov_w7_w2
+  .near_func.text      6   0x2bf   0x7
+    ?mov_w7_w4
+  .near_func.text      6   0x2c6   0x7
+    ?mov_w7_w6
+  .near_func.text      6   0x2cd   0x3
+    ?mov_l0_l1
+  .near_func.text      6   0x2d0   0x3
+    ?mov_e0_e1
+  .near_func.text      6   0x2d3   0x7
+    ?mov_w1_w3
+  .near_func.text      6   0x30e   0x3
+    ?mov_l1_l3
+  .near_func.text      6   0x311   0x3
+    ?mov_e1_e3
+  .near_func.text      6   0x314   0x7
+    ?mov_w3_w7
+  .near_func.text      6   0x328   0x3
+    ?mov_l2_l1
+  .near_func.text      6   0x32b   0x3
+    ?mov_e2_e1
+  .near_func.text      6   0x32e   0x7
+    ?mov_w5_w3
+  .near_func.text      6   0x335   0x3
+    ?mov_l2_l3
+  .near_func.text      6   0x338   0x3
+    ?mov_e2_e3
+  .near_func.text      6   0x33b   0x7
+    ?mov_w5_w7
+  .near_func.text      6   0x34f   0x3
+    ?mov_l3_l1
+  .near_func.text      6   0x352   0x3
+    ?mov_e3_e1
+  .near_func.text      6   0x355   0x7
+    ?mov_w7_w3
+  .near_func.text      6   0x35c   0x3
+    ?mov_l3_l2
+  .near_func.text      6   0x35f   0x3
+    ?mov_e3_e2
+  .near_func.text      6   0x362   0x7
+    ?mov_w7_w5
+  .near_func.text      6     0x0  0x12  move.o
+    ?move1616_v_x_y_tos16
+  .near_func.text      6    0x1f  0x16
+    ?move16eeprom16_v_x_y_w0
+  .near_func.text      6    0x35  0x13
+    ?move1624_v_x_e0_y
+  .near_func.text      6    0x48  0x17
+    ?move16eeprom24_v_x_e0_y
+  .near_func.text      6    0x5f  0x12
+    ?move2416_v_e0_x_y
+  .near_func.text      6    0x71   0xf
+    ?move2424_v_e0_e1_x
+  .near_func.text      6    0x80   0x2
+    ?longfarg16_v_w0_a
+  .near_func.text      6    0x82  0x10
+    ?longfarg16_v_w0_x
+  .near_func.text      6    0x92   0xe
+    ?longfarg24_v_e0_x
+  .near_func.text      6     0x0  0x1e  short.o
+    ?mul16_x_x_w0
+  .near_func.text      6    0x1e  0x19
+    ?sdiv16_x_x_y
+  .near_func.text      6    0x37  0x10
+    ?smod16_y_x_y
+  .near_func.text      6    0x47   0x3
+    ?and16_x_x_dw
+  .near_func.text      6    0x4a   0x8
+    ?and16_x_x_w0
+  .near_func.text      6    0x52   0x8
+    ?and16_x_x_w1
+  .near_func.text      6    0x5a   0x8
+    ?and16_x_x_w2
+  .near_func.text      6    0x62   0x8
+    ?and16_x_x_w3
+  .near_func.text      6    0x6a   0x8
+    ?and16_x_x_w4
+  .near_func.text      6    0x72   0x8
+    ?and16_x_x_w5
+  .near_func.text      6    0x7a   0x8
+    ?and16_x_x_w6
+  .near_func.text      6    0x82   0x8
+    ?and16_x_x_w7
+  .near_func.text      6    0x95   0x8
+    ?or16_x_x_w1
+  .near_func.text      6    0x9d   0x8
+    ?or16_x_x_w2
+  .near_func.text      6    0xa5   0x8
+    ?or16_x_x_w3
+  .near_func.text      6    0xad   0x8
+    ?or16_x_x_w4
+  .near_func.text      6    0xb5   0x8
+    ?or16_x_x_w5
+  .near_func.text      6    0xbd   0x8
+    ?or16_x_x_w6
+  .near_func.text      6    0xc5   0x8
+    ?or16_x_x_w7
+  .near_func.text      6    0xcd   0x3
+    ?xor16_x_x_dw
+  .near_func.text      6    0xd0   0x8
+    ?xor16_x_x_w0
+  .near_func.text      6    0xd8   0x8
+    ?xor16_x_x_w1
+  .near_func.text      6    0xe0   0x8
+    ?xor16_x_x_w2
+  .near_func.text      6    0xe8   0x8
+    ?xor16_x_x_w3
+  .near_func.text      6    0xf0   0x8
+    ?xor16_x_x_w4
+  .near_func.text      6    0xf8   0x8
+    ?xor16_x_x_w5
+  .near_func.text      6   0x100   0x8
+    ?xor16_x_x_w6
+  .near_func.text      6   0x108   0x8
+    ?xor16_x_x_w7
+  .near_func.text      6   0x118   0x8
+    ?srl16_x_x_a
+  .near_func.text      6   0x120   0x8
+    ?sra16_x_x_a
+  .near_func.text      6   0x128   0x1
+    ?sll16_x_x_15
+  .near_func.text      6   0x129   0x1
+    ?sll16_x_x_14
+  .near_func.text      6   0x12a   0x1
+    ?sll16_x_x_13
+  .near_func.text      6   0x12b   0x1
+    ?sll16_x_x_12
+  .near_func.text      6   0x12c   0x1
+    ?sll16_x_x_11
+  .near_func.text      6   0x12d   0x1
+    ?sll16_x_x_10
+  .near_func.text      6   0x12e   0x1
+    ?sll16_x_x_9
+  .near_func.text      6   0x12f   0x1
+    ?sll16_x_x_8
+  .near_func.text      6   0x130   0x1
+    ?sll16_x_x_7
+  .near_func.text      6   0x131   0x1
+    ?sll16_x_x_6
+  .near_func.text      6   0x132   0x1
+    ?sll16_x_x_5
+  .near_func.text      6   0x133   0x5
+    ?sll16_x_x_4
+  .near_func.text      6   0x138   0x1
+    ?srl16_x_x_15
+  .near_func.text      6   0x139   0x1
+    ?srl16_x_x_14
+  .near_func.text      6   0x13a   0x1
+    ?srl16_x_x_13
+  .near_func.text      6   0x13b   0x1
+    ?srl16_x_x_12
+  .near_func.text      6   0x13c   0x1
+    ?srl16_x_x_11
+  .near_func.text      6   0x13d   0x1
+    ?srl16_x_x_10
+  .near_func.text      6   0x13e   0x1
+    ?srl16_x_x_9
+  .near_func.text      6   0x13f   0x1
+    ?srl16_x_x_8
+  .near_func.text      6   0x140   0x1
+    ?srl16_x_x_7
+  .near_func.text      6   0x141   0x1
+    ?srl16_x_x_6
+  .near_func.text      6   0x142   0x1
+    ?srl16_x_x_5
+  .near_func.text      6   0x148   0x1
+    ?sra16_x_x_15
+  .near_func.text      6   0x149   0x1
+    ?sra16_x_x_14
+  .near_func.text      6   0x14a   0x1
+    ?sra16_x_x_13
+  .near_func.text      6   0x14b   0x1
+    ?sra16_x_x_12
+  .near_func.text      6   0x14c   0x1
+    ?sra16_x_x_11
+  .near_func.text      6   0x14d   0x1
+    ?sra16_x_x_10
+  .near_func.text      6   0x14e   0x1
+    ?sra16_x_x_9
+  .near_func.text      6   0x14f   0x1
+    ?sra16_x_x_8
+  .near_func.text      6   0x150   0x1
+    ?sra16_x_x_7
+  .near_func.text      6   0x151   0x1
+    ?sra16_x_x_6
+  .near_func.text      6   0x152   0x1
+    ?sra16_x_x_5
+  .near_func.text      6   0x153   0x5
+    ?sra16_x_x_4
+  .near_func.text      6   0x158   0x7
+    ?sext16_x_a
+  .near_func.text      6     0x0  0x10  long.o
+    ?neg32_l0_l0
+  .near_func.text      6    0x10   0x5
+    ?inc32_l0_l0
+  .near_func.text      6    0x15   0x5
+    ?inc32_l1_l1
+  .near_func.text      6    0x1a   0x5
+    ?inc32_l2_l2
+  .near_func.text      6    0x1f   0x5
+    ?inc32_l3_l3
+  .near_func.text      6    0x24   0xe
+    ?inc32_0x_0x
+  .near_func.text      6    0x32   0x5
+    ?dec32_l0_l0
+  .near_func.text      6    0x37   0x5
+    ?dec32_l1_l1
+  .near_func.text      6    0x3c   0x5
+    ?dec32_l2_l2
+  .near_func.text      6    0x41   0x5
+    ?dec32_l3_l3
+  .near_func.text      6    0x46  0x14
+    ?dec32_0x_0x
+  .near_func.text      6    0x5a   0x5
+    ?add32_l0_l0_dl
+  .near_func.text      6    0x5f   0x3
+    ?add32_l0_l0_l1
+  .near_func.text      6    0x62  0x18
+    ?add32_l0_l0_0x
+  .near_func.text      6    0x7a   0x5
+    ?sub32_l0_l0_dl
+  .near_func.text      6    0x7f   0x3
+    ?sub32_l0_dl_l1
+  .near_func.text      6   0x127   0x5
+    ?umod32_l1_dl_l1
+  .near_func.text      6   0x12c   0x5
+    ?umod32_l1_l0_dl
+  .near_func.text      6   0x1a6   0x5
+    ?smod32_l1_dl_l1
+  .near_func.text      6   0x1ab   0x5
+    ?smod32_l1_l0_dl
+  .near_func.text      6   0x1b0   0x5
+    ?sdiv32_l0_dl_l1
+  .near_func.text      6   0x1b5   0x3
+    ?sdiv32_l0_l0_dl
+  .near_func.text      6   0x1b8  0x46
+    ?sdiv32_l0_l0_l1
+    ?smod32_l1_l0_l1
+  .near_func.text      6   0x1fe  0x10
+    ?ucmp32_c_l0_0x
+  .near_func.text      6   0x20e   0xb
+    ?ucmp32_c_l0_l1
+  .near_func.text      6   0x219   0x9
+    ?scmp32_c_l0_0x
+  .near_func.text      6   0x222  0x17
+    ?scmp32_c_l0_l1
+  .near_func.text      6   0x239   0x9
+    ?not32_l0_l0
+  .near_func.text      6   0x242   0x3
+    ?and32_l0_l0_l1
+  .near_func.text      6   0x245  0x18
+    ?and32_l0_l0_0x
+  .near_func.text      6   0x25d   0x3
+    ?or32_l0_l0_l1
+  .near_func.text      6   0x260  0x18
+    ?or32_l0_l0_0x
+  .near_func.text      6   0x278   0x3
+    ?xor32_l0_l0_l1
+  .near_func.text      6   0x27b  0x18
+    ?xor32_l0_l0_0x
+  .near_func.text      6   0x293   0x4
+    ?sll32_l0_l0_db
+  .near_func.text      6   0x2a8   0x4
+    ?srl32_l0_l0_db
+  .near_func.text      6   0x2ac   0x3
+    ?srl32_l0_l0_a
+  .near_func.text      6   0x2af   0xe
+    ?srl32_0x_0x_a
+  .near_func.text      6   0x2bd   0x4
+    ?sra32_l0_l0_db
+  .near_func.text      6   0x2c1   0x3
+    ?sra32_l0_l0_a
+  .near_func.text      6   0x2c4   0xe
+    ?sra32_0x_0x_a
+  .near_func.text      6   0x2d2   0xb
+    ?sext32_l0_x
+  .near_func.text      6   0x2dd   0xd
+    ?sext32_l0_a
+  .near_func.text      6     0x0  0x1a  char.o
+    ?sdiv8_xl_a_b0
+  .near_func.text      6    0x1a  0x14
+    ?smod8_a_b0_a
+  .near_func.text      6    0x2e   0xa
+    ?sll8_a_a_b0
+  .near_func.text      6    0x38   0xa
+    ?srl8_a_a_b0
+  .near_func.text      6    0x42   0xa
+    ?sra8_a_a_b0
+  .near_func.text      6    0x52   0x1
+    ?srl8_a_a_6
+  .near_func.text      6    0x53   0x5
+    ?srl8_a_a_5
+  .near_func.text      6    0x58   0x1
+    ?sra8_a_a_7
+  .near_func.text      6    0x59   0x1
+    ?sra8_a_a_6
+  .near_func.text      6    0x5a   0x1
+    ?sra8_a_a_5
+  .near_func.text      6    0x5b   0x5
+    ?sra8_a_a_4
+  .near_func.text      6    0x1c   0x5  long_util.o
+    ?load32_l1_dbsp
+  .near_func.text      6    0x21   0x2
+    ?load32_l1_asp
+  .near_func.text      6    0x23   0x9
+    ?load32_l1_xsp
+  .near_func.text      6    0x38   0x5
+    ?load32_l2_dbsp
+  .near_func.text      6    0x3d   0x2
+    ?load32_l2_asp
+  .near_func.text      6    0x3f   0x9
+    ?load32_l2_xsp
+  .near_func.text      6    0x48   0xc
+    ?load32_l2_0x
+  .near_func.text      6    0x54   0x5
+    ?load32_l3_dbsp
+  .near_func.text      6    0x59   0x2
+    ?load32_l3_asp
+  .near_func.text      6    0x5b   0x9
+    ?load32_l3_xsp
+  .near_func.text      6    0x64   0xc
+    ?load32_l3_0x
+  .near_func.text      6    0x8f   0x5
+    ?load32_dbsp_l1
+  .near_func.text      6    0x94   0x2
+    ?load32_asp_l1
+  .near_func.text      6    0x96   0xa
+    ?load32_xsp_l1
+  .near_func.text      6    0xa0   0xe
+    ?load32_0x_l1
+  .near_func.text      6    0xae   0x5
+    ?load32_dbsp_l2
+  .near_func.text      6    0xb3   0x2
+    ?load32_asp_l2
+  .near_func.text      6    0xb5   0xa
+    ?load32_xsp_l2
+  .near_func.text      6    0xbf   0xe
+    ?load32_0x_l2
+  .near_func.text      6    0xcd   0x5
+    ?load32_dbsp_l3
+  .near_func.text      6    0xd2   0x2
+    ?load32_asp_l3
+  .near_func.text      6    0xd4   0xa
+    ?load32_xsp_l3
+  .near_func.text      6    0xde   0xe
+    ?load32_0x_l3
+  .near_func.text      6     0x0  0x1d  cppinit.o
+    __call_ctors
+  .iar.dynexit         7     0x0   0x6
+    DtorRecArray
+  .near.data           8     0x0   0x2
+    next_abi_dtor_rec
+  .near_func.text      9     0x0  0x35
+    __cxa_atexit
+  .near_func.text     10     0x0  0x4a
+    __cxa_finalize
+  .near_func.text     10    0x4a   0x4
+    __call_dtors
+  .near.bss           11     0x0   0x2
+    __dso_handle
+  .near_func.text      6     0x0   0x7  dc_util.o
+    ?dc8_px
+  .near_func.text      6    0x15   0xe
+    ?dc16_w1
+  .near_func.text      6    0x23   0xe
+    ?dc16_w2
+  .near_func.text      6    0x31   0xe
+    ?dc16_w3
+  .near_func.text      6    0x3f   0xe
+    ?dc16_w4
+  .near_func.text      6    0x4d   0xe
+    ?dc16_w5
+  .near_func.text      6    0x5b   0xe
+    ?dc16_w6
+  .near_func.text      6    0x69   0xe
+    ?dc16_w7
+  .near_func.text      6    0x77   0x9
+    ?dc16_px
+  .near_func.text      6    0x9a   0xd
+    ?dc32_l2
+  .near_func.text      6    0xa7   0xd
+    ?dc32_l3
+  .near_func.text      6     0x1   0x3  cexit.o
+    __cstart_call_dtors
+  .near_func.text      6     0x4   0x3
+    __cstart_closeall
+  .near_func.text      6     0x7   0x3
+    __cstart_clearlocks
+  .near_func.text      6     0x0   0xb  xcloseall.o
+    _Close_all
+  .near_func.text      8     0x0   0x9  __dbg_xxwrite.o
+    __write
+  .near_func.text      8     0x0  0x16  __dbg_xxdwrite.o
+    __dwrite
+
+Creating copy init batch C1 (Table) for P3-P5 -> P2, auto, unit
+  First match: .near.data (main.o #8)
+Selecting packing algorithm for 'auto' batches
+  Estimating size for copy init batch C1 (P3-P5 -> P2):
+      copy: 7 bytes
+    Selecting copy
+Creating initializer unit for P3-P5 -> P2
